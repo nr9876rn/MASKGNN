@@ -1,0 +1,6 @@
+We validate our algorithm on two real-world Solidity datasets collected from the 
+Ethereum, named BJUT\_SC01[1] and SmartBugs[2]. Please download the corresponding dataset as indicated in the paper.
+
+
+[1] Huang, Yuan, et al. "Recommending differentiated code to support smart contract update." 2019 IEEE/ACM 27th International Conference on Program Comprehension (ICPC). IEEE, 2019.
+[2] Durieux, Thomas, et al. "Empirical review of automated analysis tools on 47,587 ethereum smart contracts." Proceedings of the ACM/IEEE 42nd International conference on software engineering. 2020.

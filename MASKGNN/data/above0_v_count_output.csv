@@ -1,0 +1,2969 @@
+Key,Value,Type
+! (state.exchange || state.payment),1,Extra gas consumption
+! assertion,2,Extra gas consumption
+! confirm(_r) && m_txs[_r].to == 0,1,Extra gas consumption
+! owner.send(msg.value),1,Extra gas consumption
+! ownerValidator.validate(msg.sender),66,Extra gas consumption
+! voted[voter],2,Extra gas consumption
+((lucky_number % 99) % 9) % 3 == 1,1,Extra gas consumption
+((n * (n + 1)) / 2) ** 2,1,Extra gas consumption
+(i < endIndex && i < addressOfBountyMembers.length),14,Extra gas consumption
+(i),2,Extra gas consumption
+(length > 0),1,Extra gas consumption
+(n * (n + 1) * (2 * n + 1)) / 6,1,Extra gas consumption
+(n * (n + 1)) / 2,1,Extra gas consumption
+"(to,None,None,None,None) = ES.allShare(ShareID,ReplyID)",1,Extra gas consumption
+++ currentYear,2,Extra gas consumption
+++ i,4,Extra gas consumption
+"AirDropCoin(address(owners[i]),balanceOf[owners[i]],_value,(balanceOf[owners[i]] / _value))",1,Extra gas consumption
+ArrayType,18,Extra gas consumption
+BASERATIO,136,Extra gas consumption
+BobbySafeMath,4,Extra gas consumption
+"ChangeBalance(msg.sender,store.balanceOf(msg.sender))",3,Extra gas consumption
+ContractCreator = NewOwner,3,Extra gas consumption
+"ContractFallbackCallFailed(from,to,value)",1,Extra gas consumption
+"ContractFallbackCallFailed(msg.sender,to,value)",1,Extra gas consumption
+END_TIME_COUNTDOWN,6,Extra gas consumption
+"ERC20(_token[i]).transferFrom(_from[i],_to[i],_amount[i])",1,Extra gas consumption
+"ERC20(coin).transfer(to,amount)",1,Extra gas consumption
+"ERC20Interface(_tokenAddressSell).transferFrom(msg.sender,this,_amountTokenSell)",1,Extra gas consumption
+ES,1,Extra gas consumption
+ETHtoP3Dbymasternode,8,Extra gas consumption
+ETHtoP3Dbymasternode[masternode] = 0,4,Extra gas consumption
+EVERY_RELEASE_COUNT,3,Extra gas consumption
+"EarningsWithdrawn(msg.sender,amount)",2,Extra gas consumption
+EscrowState,2,Extra gas consumption
+FACTOR,1,Extra gas consumption
+FIRST_YEAR_TIMESTAMP,2,Extra gas consumption
+FoMo3Dlong_,6,Extra gas consumption
+"FundTransfer(msg.sender,amount,true)",8,Extra gas consumption
+INT100,2,Extra gas consumption
+ItemList,216,Extra gas consumption
+Jackpot,4,Extra gas consumption
+LogItemUpdate(id),9,Extra gas consumption
+LotteryState,1,Extra gas consumption
+MAX_RECIPIENTS,1,Extra gas consumption
+MIN,1,Extra gas consumption
+MINT_AMOUNT,4,Extra gas consumption
+MIN_CONTRIBUTION,10,Extra gas consumption
+Math,6,Extra gas consumption
+MathLib,30,Extra gas consumption
+NewOwner,3,Extra gas consumption
+P3Dcontract_.buy.value(amt)(this),1,Extra gas consumption
+SOURCE_AREA,6,Extra gas consumption
+SPASM_,1,Extra gas consumption
+SafeMath,445,Extra gas consumption
+SafeMathLib,35,Extra gas consumption
+Stage,8,Extra gas consumption
+"TokenDrop(msg.sender,_recipients[i],_values[i])",3,Extra gas consumption
+"Transfer(msg.sender,_to,_value)",2,Extra gas consumption
+"Transfer(msg.sender,_to,_value,_data)",1,Extra gas consumption
+"Transfer(msg.sender,to,value)",3,Extra gas consumption
+"Transfer(reciever,balance * sellPrice)",2,Extra gas consumption
+Tx,6,Extra gas consumption
+UN_FREEZE_CYCLE,2,Extra gas consumption
+"UUU.transfer(recipients[i],values[i] * 10 ** 18)",1,Extra gas consumption
+"UnfreezeTokens(msg.sender,wallets[msg.sender].freezedAmount)",3,Extra gas consumption
+VISABLE_ALL,2,Extra gas consumption
+VISABLE_BUYED,2,Extra gas consumption
+VISABLE_FINAL,2,Extra gas consumption
+VISABLE_OWNER,2,Extra gas consumption
+_ETHUSD,4,Extra gas consumption
+_Ethbalances,3,Extra gas consumption
+_account,12,Extra gas consumption
+_addr,5,Extra gas consumption
+_addr_appc,2,Extra gas consumption
+_address,43,Extra gas consumption
+_addresses,26,Extra gas consumption
+_addrs,20,Extra gas consumption
+_addrs[i] != 0x0 && _values[i] > 0,1,Extra gas consumption
+_amount,80,Extra gas consumption
+_amountTokenBuy,2,Extra gas consumption
+_amountTokenSell,3,Extra gas consumption
+_amounts,10,Extra gas consumption
+_amttype,2,Extra gas consumption
+_appstore,3,Extra gas consumption
+_askingPrice,12,Extra gas consumption
+_auctioneer,6,Extra gas consumption
+_availablePaymentTime,2,Extra gas consumption
+_balanceOf,9,Extra gas consumption
+_bar = foo,2,Extra gas consumption
+_beneficiary,34,Extra gas consumption
+_betAmount,36,Extra gas consumption
+_betNum,25,Extra gas consumption
+_boardContract,13,Extra gas consumption
+_bs,10,Extra gas consumption
+_captainID,16,Extra gas consumption
+_classId,15,Extra gas consumption
+_commanderID,16,Extra gas consumption
+_contractOwner,2,Extra gas consumption
+_contractOwner = contractOwner,2,Extra gas consumption
+_count,6,Extra gas consumption
+_currentIndex,6,Extra gas consumption
+_dAmount,3,Extra gas consumption
+_data,2,Extra gas consumption
+_decimals,2,Extra gas consumption
+"_decreaseAllowance(from,msg.sender,value)",2,Extra gas consumption
+_delta,4,Extra gas consumption
+_dests,11,Extra gas consumption
+_dev,3,Extra gas consumption
+_direction,16,Extra gas consumption
+_end,6,Extra gas consumption
+_ended,9,Extra gas consumption
+_endingPrice,16,Extra gas consumption
+_eth,16,Extra gas consumption
+_excavation,3,Extra gas consumption
+_expItemClass,1,Extra gas consumption
+_fee,3,Extra gas consumption
+_first,5,Extra gas consumption
+_foo = foo,2,Extra gas consumption
+_freeSeeders,5,Extra gas consumption
+_freeValue,6,Extra gas consumption
+_freeze,28,Extra gas consumption
+_freeze = freezedTokens[_beneficiary],8,Extra gas consumption
+_freezeAmount,9,Extra gas consumption
+_freezeMonth,10,Extra gas consumption
+_from,355,Extra gas consumption
+_gameID,3,Extra gas consumption
+_hasNonNumber,3,Extra gas consumption
+_hasNonNumber = true,2,Extra gas consumption
+_hash,5,Extra gas consumption
+_holder,26,Extra gas consumption
+_housesContract,29,Extra gas consumption
+_id,8,Extra gas consumption
+_identityExists(ein),1,Extra gas consumption
+_implementation,2,Extra gas consumption
+_implementation = implementation(),2,Extra gas consumption
+_index,38,Extra gas consumption
+_investednum,17,Extra gas consumption
+_investor,14,Extra gas consumption
+_length,18,Extra gas consumption
+_levelItemClass,1,Extra gas consumption
+_locationInfo,18,Extra gas consumption
+_locations,12,Extra gas consumption
+_locker,18,Extra gas consumption
+_locktype,8,Extra gas consumption
+_max,1,Extra gas consumption
+_maxGameResult,13,Extra gas consumption
+_midGameResult,12,Extra gas consumption
+_min,1,Extra gas consumption
+_minGameResult,12,Extra gas consumption
+_name,9,Extra gas consumption
+_newAdmin,14,Extra gas consumption
+_newCEO,4,Extra gas consumption
+_newController,4,Extra gas consumption
+_newGod,58,Extra gas consumption
+_newOwner,132,Extra gas consumption
+_newOwner != address(0),4,Extra gas consumption
+_newPrice,2,Extra gas consumption
+_newRoot,14,Extra gas consumption
+_new_mint_address,3,Extra gas consumption
+_newaddress,3,Extra gas consumption
+_nextReferrer,4,Extra gas consumption
+_nextReferrer != 0,2,Extra gas consumption
+_nextReferrer = user[referrer].referrer,2,Extra gas consumption
+_now,16,Extra gas consumption
+_number,9,Extra gas consumption
+_oem,3,Extra gas consumption
+_operationId,3,Extra gas consumption
+_owner,77,Extra gas consumption
+_owners,6,Extra gas consumption
+_owners.values(),4,Extra gas consumption
+_params,9,Extra gas consumption
+_pause,2,Extra gas consumption
+_per,6,Extra gas consumption
+_price,16,Extra gas consumption
+_ps,34,Extra gas consumption
+"_r = sha3()(msg.data,block.number)",1,Extra gas consumption
+_rank,14,Extra gas consumption
+_receivers,3,Extra gas consumption
+_recipient,2,Extra gas consumption
+_recipients,24,Extra gas consumption
+_reduction,15,Extra gas consumption
+_requestMsgHash,4,Extra gas consumption
+_restricted,2,Extra gas consumption
+_safeAddress,3,Extra gas consumption
+_sender,19,Extra gas consumption
+_size,6,Extra gas consumption
+_smallNum,10,Extra gas consumption
+_smartContract,8,Extra gas consumption
+_spender,148,Extra gas consumption
+_state,6,Extra gas consumption
+_step,3,Extra gas consumption
+_success,4,Extra gas consumption
+_symbol,2,Extra gas consumption
+_target,19,Extra gas consumption
+_temp,33,Extra gas consumption
+_time,6,Extra gas consumption
+_tmpRateAll,14,Extra gas consumption
+_tmpRateAll = lposition1[_address].releaseRate1,6,Extra gas consumption
+_to,564,Extra gas consumption
+_token,52,Extra gas consumption
+"_token.transferFrom(msg.sender,_recipients[i],_values[i])",3,Extra gas consumption
+_tokenAddr,7,Extra gas consumption
+_tokenAddress,57,Extra gas consumption
+_tokenAddressSell,1,Extra gas consumption
+_tokenAmount,6,Extra gas consumption
+_tokenContract,2,Extra gas consumption
+_tokenId,99,Extra gas consumption
+_tokens,135,Extra gas consumption
+"_tokens = safeDiv(lock.totalAmount,lock.withdrawSteps)",2,Extra gas consumption
+"_tokens = safeSub(lock.totalAmount,lock.amountWithDrawn)",2,Extra gas consumption
+_tos,27,Extra gas consumption
+_totalNames,4,Extra gas consumption
+"_transfer(_from,_to,_value)",1,Extra gas consumption
+"_transfer(from,to,value)",2,Extra gas consumption
+"_transfer(msg.sender,_to,_value)",5,Extra gas consumption
+"_transfer(msg.sender,to,value)",2,Extra gas consumption
+"_transferFrom(_from,_to,_value)",2,Extra gas consumption
+_types,12,Extra gas consumption
+_unfreezeBeginTime,8,Extra gas consumption
+_unrestricted,2,Extra gas consumption
+_user,41,Extra gas consumption
+_userlist,4,Extra gas consumption
+_userlist[i] != address(0),2,Extra gas consumption
+_value,680,Extra gas consumption
+_value = v * 10 ** _decimals,1,Extra gas consumption
+_value0,1,Extra gas consumption
+_value1,1,Extra gas consumption
+_value2,1,Extra gas consumption
+_values,29,Extra gas consumption
+_when,14,Extra gas consumption
+acc,72,Extra gas consumption
+accessTime,24,Extra gas consumption
+account,18,Extra gas consumption
+accountLevelsAddr,2,Extra gas consumption
+active,1,Extra gas consumption
+addr,76,Extra gas consumption
+addrPerStep,28,Extra gas consumption
+address(owners[i]).transfer(balanceOf[owners[i]] / _value),1,Extra gas consumption
+addresses,54,Extra gas consumption
+addrs,2,Extra gas consumption
+addrs[i].transfer(val * shares[i] / denom),1,Extra gas consumption
+adminAddressesByGameId,6,Extra gas consumption
+admins,4,Extra gas consumption
+airdrop,26,Extra gas consumption
+airdrops,7,Extra gas consumption
+"allRewards[ShareID][ReplyID].push(oneReward(msg.sender,msg.value))",1,Extra gas consumption
+allStakes,5,Extra gas consumption
+allowance,5,Extra gas consumption
+"allowance = proxyToken.allowance(msg.sender,address(this))",1,Extra gas consumption
+allowance[_from][msg.sender],1,Extra gas consumption
+allowed,3,Extra gas consumption
+allowed[_owner][_spender],4,Extra gas consumption
+amount,222,Extra gas consumption
+amount = 1000 * (10 ** 18),2,Extra gas consumption
+amount = msg.value,1,Extra gas consumption
+amount = msg.value / recipients.length,2,Extra gas consumption
+amount = playerVault[msg.sender],2,Extra gas consumption
+amountList,7,Extra gas consumption
+amounts,42,Extra gas consumption
+amt,1,Extra gas consumption
+appc,7,Extra gas consumption
+"appc.transferFrom(msg.sender,address(this),_amount)",1,Extra gas consumption
+approvedInvestorListWithDate[newInvestorList[i]] = releaseTime,1,Extra gas consumption
+approvedInvestorListWithDate[newInvestor] = releaseTime,1,Extra gas consumption
+area,32,Extra gas consumption
+areaId,8,Extra gas consumption
+assert(bool)(_to.length <= 150),2,Extra gas consumption
+assert(bool)(_to.length == _value.length),2,Extra gas consumption
+assertion,2,Extra gas consumption
+auction,13,Extra gas consumption
+auctionIndex,5,Extra gas consumption
+auctioneer = _auctioneer,3,Extra gas consumption
+auctions,11,Extra gas consumption
+auth(),22,Extra gas consumption
+autoBirthFee,24,Extra gas consumption
+average,6,Extra gas consumption
+balance,30,Extra gas consumption
+balance <= 0,2,Extra gas consumption
+balance = eplay.balanceOf(reciever),2,Extra gas consumption
+balance = msg.sender.balance,1,Extra gas consumption
+balance = token.balanceOf(this),2,Extra gas consumption
+balanceLock,20,Extra gas consumption
+balanceOf,143,Extra gas consumption
+balanceOf[addr],6,Extra gas consumption
+balanceOf[addr].sub(frozenBalances[addr]),8,Extra gas consumption
+balanceOf[addr].sub(lockedBalances[addr]).sub(frozenBalances[addr]),6,Extra gas consumption
+balances,163,Extra gas consumption
+balances[_address] = balances[_address] + _amount,1,Extra gas consumption
+balances[_to] = balances[_to].add(_value),1,Extra gas consumption
+balances[from] = balances[from].sub(value),3,Extra gas consumption
+balances[msg.sender] = balances[msg.sender].sub(_value),1,Extra gas consumption
+balances[msg.sender] = balances[msg.sender].sub(value),3,Extra gas consumption
+balances[to] = balances[to].add(amount),2,Extra gas consumption
+balances[to] = balances[to].add(value),5,Extra gas consumption
+base,10,Extra gas consumption
+base = 1000000000000000000,1,Extra gas consumption
+base = divs.div(100),1,Extra gas consumption
+baseR,66,Extra gas consumption
+begun = true,1,Extra gas consumption
+betAmount,16,Extra gas consumption
+betAmount = getBetAmount(),4,Extra gas consumption
+betNumber,143,Extra gas consumption
+bettorsBlue,6,Extra gas consumption
+bettorsRed,6,Extra gas consumption
+blacklist[investor] = true,1,Extra gas consumption
+block.difficulty,1,Extra gas consumption
+block.gaslimit,1,Extra gas consumption
+block.number,3,Extra gas consumption
+block.timestamp,55,Extra gas consumption
+block.timestamp > recoveryAddressChangeLogs[ein].timestamp + recoveryTimeout,1,Extra gas consumption
+block.timestamp > recoveryLogs[ein].timestamp + recoveryTimeout,1,Extra gas consumption
+block_number,3,Extra gas consumption
+bonus = 0,11,Extra gas consumption
+bonusAmount,10,Extra gas consumption
+bonusCond2,63,Extra gas consumption
+bonusCond3,84,Extra gas consumption
+bonusPha2,3,Extra gas consumption
+bonusPha3,4,Extra gas consumption
+bought_tokens,6,Extra gas consumption
+buy_gem,14,Extra gas consumption
+buyerAddress,14,Extra gas consumption
+caddress,6,Extra gas consumption
+callbackAddress,4,Extra gas consumption
+callbackSelector,3,Extra gas consumption
+canMint,2,Extra gas consumption
+cap,6,Extra gas consumption
+ceoAddress = _newCEO,2,Extra gas consumption
+ceoAddress = newCEO,1,Extra gas consumption
+chains,36,Extra gas consumption
+chairperson,3,Extra gas consumption
+change,3,Extra gas consumption
+children,2,Extra gas consumption
+chosenEscrow,2,Extra gas consumption
+chunks,3,Extra gas consumption
+claimdivs(),1,Extra gas consumption
+class,12,Extra gas consumption
+colorIndex,14,Extra gas consumption
+coloredTokens,8,Extra gas consumption
+comission,4,Extra gas consumption
+commissionPCT,2,Extra gas consumption
+commissionType,2,Extra gas consumption
+commissionWEI,3,Extra gas consumption
+company,2,Extra gas consumption
+compound,10,Extra gas consumption
+confirmAndCheck(_operation),2,Extra gas consumption
+contractAddress,5,Extra gas consumption
+controlWallet = newControlWallet,18,Extra gas consumption
+controlWalletInput,2,Extra gas consumption
+controller = _newController,4,Extra gas consumption
+coreContract,7,Extra gas consumption
+count,24,Extra gas consumption
+count ++,6,Extra gas consumption
+count = 0,5,Extra gas consumption
+"countReferralsByLevel(_nextReferrer,level)",2,Extra gas consumption
+counter,3,Extra gas consumption
+creator,6,Extra gas consumption
+crowdsaleAddress,2,Extra gas consumption
+crowdsaleBalance,2,Extra gas consumption
+ctry_,14,Extra gas consumption
+curRandom,4,Extra gas consumption
+curToken,4,Extra gas consumption
+currUnlockSeq,5,Extra gas consumption
+current,23,Extra gas consumption
+currentAddress,7,Extra gas consumption
+currentBatch,42,Extra gas consumption
+currentInterest,3,Extra gas consumption
+currentKey,28,Extra gas consumption
+currentOwner,4,Extra gas consumption
+customer,18,Extra gas consumption
+cycles,10,Extra gas consumption
+"d = get(ds,lastIdx - count)",2,Extra gas consumption
+d.answer.length == d.aCount,1,Extra gas consumption
+d.ownerIds.contains(msg.sender),1,Extra gas consumption
+dai,13,Extra gas consumption
+daiAddress,3,Extra gas consumption
+dailyLimit,3,Extra gas consumption
+dailyLimits[token].spentToday += amount,1,Extra gas consumption
+data,31,Extra gas consumption
+data = msg.data,2,Extra gas consumption
+datasource,420,Extra gas consumption
+dayNo,422,Extra gas consumption
+deadline,72,Extra gas consumption
+decimals,6,Extra gas consumption
+denom,1,Extra gas consumption
+dep,11,Extra gas consumption
+depositors,5,Extra gas consumption
+dest,6,Extra gas consumption
+destAmt,6,Extra gas consumption
+dests,18,Extra gas consumption
+developerReservedUnlockTimes,28,Extra gas consumption
+developmentTiming,10,Extra gas consumption
+dice_result,3,Extra gas consumption
+diff,24,Extra gas consumption
+distr,1,Extra gas consumption
+distr = msg.value / myAddresses.length,1,Extra gas consumption
+"distr(addresses[i],value)",1,Extra gas consumption
+"distr(investor,toGive)",1,Extra gas consumption
+dividends,4,Extra gas consumption
+divs,3,Extra gas consumption
+divs = harvestabledivs(),1,Extra gas consumption
+dorpnum,6,Extra gas consumption
+dorptime,9,Extra gas consumption
+dpm,8,Extra gas consumption
+ds.buyer[ansHash].contains(msg.sender),1,Extra gas consumption
+dynargs,240,Extra gas consumption
+dynargs[0] = args[0],240,Extra gas consumption
+dynargs[1] = args[1],192,Extra gas consumption
+egt,6,Extra gas consumption
+encodedPtr,2,Extra gas consumption
+end,5,Extra gas consumption
+endIndex,14,Extra gas consumption
+endIndex = (currentBatch + 1) * addrPerStep,14,Extra gas consumption
+endTime,16,Extra gas consumption
+"ercContract.transfer(target,amount)",1,Extra gas consumption
+"ercContract.transferFrom(msg.sender,target,amount)",1,Extra gas consumption
+errors,3,Extra gas consumption
+escrow,2,Extra gas consumption
+eth,26,Extra gas consumption
+ethQty,6,Extra gas consumption
+etherContributed,4,Extra gas consumption
+expItemClass = _expItemClass,1,Extra gas consumption
+externalContract,12,Extra gas consumption
+externalContract = ERC721(externalNft.nftContractAddress),24,Extra gas consumption
+externalNft,72,Extra gas consumption
+externalNft = uidToExternalNft[_tokenId],24,Extra gas consumption
+externalNft.nftContractAddress != 0,24,Extra gas consumption
+factor = FACTOR * 100 / max,1,Extra gas consumption
+false,75,Extra gas consumption
+fee,25,Extra gas consumption
+feeAddr,1,Extra gas consumption
+feeCollector,10,Extra gas consumption
+feeRebate,2,Extra gas consumption
+feeTake,2,Extra gas consumption
+feeTakeValue,5,Extra gas consumption
+feeTakeXfer,3,Extra gas consumption
+feecounter,1,Extra gas consumption
+feecounter = 0,1,Extra gas consumption
+feecounter = msg.value / 5,1,Extra gas consumption
+flattenedPtr,2,Extra gas consumption
+flowerId,20,Extra gas consumption
+foo,4,Extra gas consumption
+foundersAddresses,3,Extra gas consumption
+freeday,11,Extra gas consumption
+freezeBalance,2,Extra gas consumption
+freezedTokens,14,Extra gas consumption
+from,31,Extra gas consumption
+froms,4,Extra gas consumption
+frozenAccount,31,Extra gas consumption
+frozenBalances,26,Extra gas consumption
+fundWallet = newFundWallet,18,Extra gas consumption
+g_BagList,174,Extra gas consumption
+g_Bonus,570,Extra gas consumption
+"gambleTokenLock.amountWithDrawn = safeAdd(gambleTokenLock.amountWithDrawn,_tokens)",2,Extra gas consumption
+game,33,Extra gas consumption
+gameIdsByAdminAddress,6,Extra gas consumption
+gameIndex,37,Extra gas consumption
+gameMaxBetAmount,14,Extra gas consumption
+games,22,Extra gas consumption
+gamesByAdmin,24,Extra gas consumption
+games_,4,Extra gas consumption
+gaslimit,258,Extra gas consumption
+getTime() >= getLockFundsReleaseTime(msg.sender),1,Extra gas consumption
+god = _newGod,58,Extra gas consumption
+godOwner = newGodOwner,2,Extra gas consumption
+groupLockDate,16,Extra gas consumption
+hardCapReached,1,Extra gas consumption
+head,36,Extra gas consumption
+headKey,36,Extra gas consumption
+higher_god_listed,3,Extra gas consumption
+holders[i].transfer(_value * token.balanceOf(holders[i]) / token.totalSupply()),1,Extra gas consumption
+holders[i].transfer(msg.value * token.balanceOf(holders[i]) / token.totalSupply()),1,Extra gas consumption
+i ++,51,Extra gas consumption
+i += 1,6,Extra gas consumption
+i --,8,Extra gas consumption
+i < 1000,1,Extra gas consumption
+i < _addresses.length,4,Extra gas consumption
+i < _addrs.length,8,Extra gas consumption
+i < _dests.length,4,Extra gas consumption
+i < _from.length,1,Extra gas consumption
+i < _owners.length,2,Extra gas consumption
+i < _receivers.length,1,Extra gas consumption
+i < _recipients.length,3,Extra gas consumption
+i < _to.length,11,Extra gas consumption
+i < _tos.length,9,Extra gas consumption
+i < _userlist.length,2,Extra gas consumption
+i < addrs.length,1,Extra gas consumption
+i < dests.length,9,Extra gas consumption
+i < entries_count,1,Extra gas consumption
+i < groupLockDate[key].lockTime.length,8,Extra gas consumption
+i < length,1,Extra gas consumption
+i < myAddresses.length,1,Extra gas consumption
+i < newInvestorList.length,1,Extra gas consumption
+i < owners.length,2,Extra gas consumption
+i < phases.length,1,Extra gas consumption
+i < receivers.length,2,Extra gas consumption
+i < recipents.length,4,Extra gas consumption
+i < recipient.length,2,Extra gas consumption
+i < recipients.length,8,Extra gas consumption
+i < self.length,2,Extra gas consumption
+i < to.length,1,Extra gas consumption
+i < toAddressList.length,3,Extra gas consumption
+i < toMapOption[_to].length,2,Extra gas consumption
+i < tokens.length,2,Extra gas consumption
+i < tos.length,6,Extra gas consumption
+i < total,6,Extra gas consumption
+i < users.length,1,Extra gas consumption
+i = 0,102,Extra gas consumption
+i = startIndex,14,Extra gas consumption
+i == 0,1,Extra gas consumption
+i == 1,1,Extra gas consumption
+i == 2,1,Extra gas consumption
+i == 3,1,Extra gas consumption
+i == 4,1,Extra gas consumption
+iPart,398,Extra gas consumption
+i_scope_0,5,Extra gas consumption
+"id = bytes4(keccak256()(transferFrom(address,address,uint256)))",9,Extra gas consumption
+identity,6,Extra gas consumption
+idx,3,Extra gas consumption
+idx < _tradingOpenTime.length,1,Extra gas consumption
+index,27,Extra gas consumption
+info,91,Extra gas consumption
+infoUrl,2,Extra gas consumption
+iniOwner,14,Extra gas consumption
+initTypes,10,Extra gas consumption
+investment,11,Extra gas consumption
+investor,212,Extra gas consumption
+investor = msg.sender,32,Extra gas consumption
+investorVault,12,Extra gas consumption
+investorVaults,23,Extra gas consumption
+investors,8,Extra gas consumption
+isAdmin(),6,Extra gas consumption
+"isContract(to) && ! contractFallback(from,to,value,new bytes(0))",1,Extra gas consumption
+"isContract(to) && ! contractFallback(msg.sender,to,value,new bytes(0))",1,Extra gas consumption
+isOwner(),3,Extra gas consumption
+isOwner(msg.sender),2,Extra gas consumption
+is_contract,4,Extra gas consumption
+isfind = false,1,Extra gas consumption
+item.record = _record,1,Extra gas consumption
+j ++,5,Extra gas consumption
+j < _recipients.length,5,Extra gas consumption
+j = 0,5,Extra gas consumption
+jackpot,1,Extra gas consumption
+jackpotBankWEI,4,Extra gas consumption
+key,32,Extra gas consumption
+key = uint256(lockUser[_owner].lockType[_index]),8,Extra gas consumption
+kyberFunctions = Kyber(getAddress(kyber)),4,Extra gas consumption
+kycVerified(msg.sender),1,Extra gas consumption
+lastCycle,7,Extra gas consumption
+lastIdx,3,Extra gas consumption
+lastPetId,4,Extra gas consumption
+lastPrice = uint2str(oraclizePrice),1,Extra gas consumption
+lastTime,9,Extra gas consumption
+len,7,Extra gas consumption
+lenLen,5,Extra gas consumption
+length,3,Extra gas consumption
+length = data.length,1,Extra gas consumption
+lessThan,1,Extra gas consumption
+level,8,Extra gas consumption
+level ++,2,Extra gas consumption
+level > 5,2,Extra gas consumption
+levelItemClass = _levelItemClass,1,Extra gas consumption
+list,12,Extra gas consumption
+lock,6,Extra gas consumption
+lock.id == 1 && lock.amountWithDrawn < lock.totalAmount,2,Extra gas consumption
+lock.withdrawSteps > 1,2,Extra gas consumption
+lockId,3,Extra gas consumption
+lockNum,7,Extra gas consumption
+lockQuantity,6,Extra gas consumption
+lockReleaseTime,2,Extra gas consumption
+lockReleaseTime < now && lock.amountWithDrawn < lock.totalAmount,2,Extra gas consumption
+lockReleaseTime = lock.start + lock.duration,2,Extra gas consumption
+lockTotalQuantity,4,Extra gas consumption
+locked,5,Extra gas consumption
+lockedBalances,12,Extra gas consumption
+lockedOwner,6,Extra gas consumption
+lockedance,8,Extra gas consumption
+locknum,17,Extra gas consumption
+locknum += 0,4,Extra gas consumption
+lockupInfo,36,Extra gas consumption
+lockupInfo[_holder].releaseTime <= now,18,Extra gas consumption
+loser,2,Extra gas consumption
+loser = uint8(getRandom() % players.length + 1),1,Extra gas consumption
+loser == i + 1,1,Extra gas consumption
+lposition,14,Extra gas consumption
+lposition1,23,Extra gas consumption
+luckyNumber,2,Extra gas consumption
+lucky_number,1,Extra gas consumption
+"lucky_number = uint256(keccak256()(abi.encodePacked(abi.encodePacked(i + random_seed + uint256(entries_addresses[i]),blockhash(uint256)(block.number)),entries_blockhash[i])))",1,Extra gas consumption
+mConfig,6,Extra gas consumption
+mWinner,5,Extra gas consumption
+m_txs,7,Extra gas consumption
+mainToken,2,Extra gas consumption
+manager = newManager,2,Extra gas consumption
+masternode,16,Extra gas consumption
+matron,20,Extra gas consumption
+max,8,Extra gas consumption
+maxTokens,6,Extra gas consumption
+maxTokensPerAccount,6,Extra gas consumption
+members,9,Extra gas consumption
+"memcpy(encodedPtr,selfPtr,len)",2,Extra gas consumption
+methodId,1,Extra gas consumption
+"methodId = bytes4(keccak256()(transferFrom(address,address,uint256)))",1,Extra gas consumption
+minAmount,1,Extra gas consumption
+"mint(msg.sender,msg.value)",1,Extra gas consumption
+minter = _new_mint_address,3,Extra gas consumption
+monsterId,10,Extra gas consumption
+move,8,Extra gas consumption
+msg.data,2,Extra gas consumption
+msg.sender,481,Extra gas consumption
+msg.sender != chairperson || voters[toVoter].voted,1,Extra gas consumption
+msg.sender != owner,1,Extra gas consumption
+msg.sender == controlWallet,18,Extra gas consumption
+msg.sender == from,1,Extra gas consumption
+msg.sender.transfer(address(this).balance),4,Extra gas consumption
+msg.sender.transfer(amount),2,Extra gas consumption
+msg.value,557,Extra gas consumption
+msg.value < oraclizePrice,1,Extra gas consumption
+msg.value > 0,1,Extra gas consumption
+msg.value >= minimum_wei && block.timestamp > launch_date,1,Extra gas consumption
+myAddresses,4,Extra gas consumption
+myAddresses[i].transfer(distr),1,Extra gas consumption
+mynumber,5,Extra gas consumption
+newAssociatedAddress,4,Extra gas consumption
+newCEO,1,Extra gas consumption
+newControlWallet,36,Extra gas consumption
+"newEscrow = Escrow({creator:msg.sender,amountTokenSell:_amountTokenSell,tokenAddressSell:_tokenAddressSell,amountTokenBuy:_amountTokenBuy,tokenAddressBuy:_tokenAddressBuy})",1,Extra gas consumption
+newFundWallet,36,Extra gas consumption
+newGodOwner,4,Extra gas consumption
+newInvestor,1,Extra gas consumption
+newInvestorList,2,Extra gas consumption
+newLength,12,Extra gas consumption
+newManager,2,Extra gas consumption
+newOwner,309,Extra gas consumption
+newOwner != address(0),83,Extra gas consumption
+newOwner != address(0) && newOwner != owner,2,Extra gas consumption
+newOwner != address(0) && newOwner != owner1 && newOwner != owner2,1,Extra gas consumption
+newOwner = _newOwner,39,Extra gas consumption
+newPrice,1,Extra gas consumption
+newSupply,30,Extra gas consumption
+new_owner,20,Extra gas consumption
+new_parameter,15,Extra gas consumption
+newethFee,10,Extra gas consumption
+newfxFee,10,Extra gas consumption
+next,120,Extra gas consumption
+next == 0,24,Extra gas consumption
+nextBetInLine,14,Extra gas consumption
+nextMintPossibleDate,3,Extra gas consumption
+nextMintPossibleDate = now,1,Extra gas consumption
+notPaused(),48,Extra gas consumption
+now,382,Extra gas consumption
+now > _tradingOpenTime[idx] && now < _tradingOpenTime[idx + 1],1,Extra gas consumption
+now >= lposition1[_address].time1,6,Extra gas consumption
+nowtime,2,Extra gas consumption
+nowtime = now,3,Extra gas consumption
+num,6,Extra gas consumption
+numberOfFinalizedStages,16,Extra gas consumption
+numbersCount,10,Extra gas consumption
+numwinners,2,Extra gas consumption
+obj = g_BagList[acc],168,Extra gas consumption
+objId,44,Extra gas consumption
+offer,56,Extra gas consumption
+offset,10,Extra gas consumption
+oldOwner,5,Extra gas consumption
+onlyAuctioneer(),1,Extra gas consumption
+onlyAuthorized(),4,Extra gas consumption
+onlyFundWallet(),36,Extra gas consumption
+onlyGod(),37,Extra gas consumption
+onlyOwner(),81,Extra gas consumption
+onlyToken(),48,Extra gas consumption
+onlyWorking(),110,Extra gas consumption
+opsAddresses,24,Extra gas consumption
+opsAddresses = adminAddressesByGameId[_game],4,Extra gas consumption
+optionId,12,Extra gas consumption
+optionValue,7,Extra gas consumption
+oraclizeAPI(),300,Extra gas consumption
+oraclizePrice,2,Extra gas consumption
+oraclizePrice = oraclize_getPrice(WolframAlpha),1,Extra gas consumption
+"oraclize_query(WolframAlpha,random number between 1 and 6)",1,Extra gas consumption
+orderEth,18,Extra gas consumption
+orderTokens,24,Extra gas consumption
+owner,4,Extra gas consumption
+owner = _newOwner,10,Extra gas consumption
+owner = _newaddress,3,Extra gas consumption
+owner = _owner,3,Extra gas consumption
+owner = msg.sender,9,Extra gas consumption
+owner = newOwner,139,Extra gas consumption
+owner = new_owner,10,Extra gas consumption
+owner.send(feecounter),1,Extra gas consumption
+owner1,1,Extra gas consumption
+owner2,1,Extra gas consumption
+ownerValidator,165,Extra gas consumption
+ownerValidator.validate(msg.sender),121,Extra gas consumption
+owners[godOwner] = false,2,Extra gas consumption
+owners[newGodOwner] = true,2,Extra gas consumption
+p3dContract,12,Extra gas consumption
+parameter_type,16,Extra gas consumption
+parentInterface,5,Extra gas consumption
+parentKey,36,Extra gas consumption
+partNum,58,Extra gas consumption
+pause = _pause,2,Extra gas consumption
+pay_gem,37,Extra gas consumption
+payout_ids.push(payout_id),1,Extra gas consumption
+"payouts[payout_id] = PayoutBlock({block_id:block.number,amount:amount,minted_tokens:minted_tokens})",1,Extra gas consumption
+payroll,3,Extra gas consumption
+pendingOwner = newOwner,9,Extra gas consumption
+pendingReturns,7,Extra gas consumption
+per,6,Extra gas consumption
+percent,29,Extra gas consumption
+percent = 0,8,Extra gas consumption
+periodDuration,2,Extra gas consumption
+periodsToUnlock,4,Extra gas consumption
+perseus,7,Extra gas consumption
+petGrade,2,Extra gas consumption
+petInfo,3,Extra gas consumption
+petSeats = seatsByGrade(petGrade),2,Extra gas consumption
+petSupply,3,Extra gas consumption
+petSyncEnabled,2,Extra gas consumption
+phases[i].startDate <= now && now <= phases[i].endDate,1,Extra gas consumption
+pkAddr,4,Extra gas consumption
+placeCount,3,Extra gas consumption
+placedBets,129,Extra gas consumption
+placedBets[betNumber].validated = true,40,Extra gas consumption
+places,5,Extra gas consumption
+plan,7,Extra gas consumption
+playerA,10,Extra gas consumption
+playerB,1,Extra gas consumption
+playerB = msg.sender,1,Extra gas consumption
+playerB.transfer(msg.value - punt),1,Extra gas consumption
+"playerLose(players[i],loser)",1,Extra gas consumption
+playerVault,4,Extra gas consumption
+playerVault[msg.sender] = 0,2,Extra gas consumption
+playerVault[placedBets[betNumber].maker] = playerVault[placedBets[betNumber].maker].add(placedBets[betNumber].betSize),18,Extra gas consumption
+playerVault[placedBets[betNumber].taker] = playerVault[placedBets[betNumber].taker].add(placedBets[betNumber].betSize),2,Extra gas consumption
+playerWin(players[i]),1,Extra gas consumption
+players[i].send(1200000000000000000),1,Extra gas consumption
+plyrCurrDayPerformance_,18,Extra gas consumption
+pos,19,Extra gas consumption
+price,231,Extra gas consumption
+prices,2,Extra gas consumption
+prize,8,Extra gas consumption
+proc,1,Extra gas consumption
+proc == 1,1,Extra gas consumption
+proxyToken,2,Extra gas consumption
+publicSupply,21,Extra gas consumption
+punt,2,Extra gas consumption
+quantity,42,Extra gas consumption
+queue,6,Extra gas consumption
+rID_,18,Extra gas consumption
+randNonce,4,Extra gas consumption
+randNonce ++,2,Extra gas consumption
+random,26,Extra gas consumption
+"random = uint256(keccak256()(abi.encodePacked(now,randNonce))) % range + 1",2,Extra gas consumption
+random_seed,1,Extra gas consumption
+randoms,3,Extra gas consumption
+rate,27,Extra gas consumption
+rebatePeriod_,12,Extra gas consumption
+receiver,1,Extra gas consumption
+receiver = TokenFallback(_to),1,Extra gas consumption
+"receiver.tokenFallback(msg.sender,_value,_data)",1,Extra gas consumption
+receivers,4,Extra gas consumption
+reciever,6,Extra gas consumption
+reciever = msg.sender,2,Extra gas consumption
+recipents,12,Extra gas consumption
+recipient,35,Extra gas consumption
+recipients,42,Extra gas consumption
+recountUsersBalance(),1,Extra gas consumption
+recoveryAddressChangeLogs,2,Extra gas consumption
+recoveryLogs,2,Extra gas consumption
+recoveryTimeout,2,Extra gas consumption
+referrer,6,Extra gas consumption
+refund,7,Extra gas consumption
+registry,3,Extra gas consumption
+registry[_name].balance = registry[_name].balance.add(msg.value),1,Extra gas consumption
+registry[_name].owner = _to,1,Extra gas consumption
+registry[_name].owner == address(0),1,Extra gas consumption
+registry[_name].owner.transfer(msg.value),1,Extra gas consumption
+releaseAmount,53,Extra gas consumption
+releaseTime,4,Extra gas consumption
+remaining,10,Extra gas consumption
+remainsToContribute,4,Extra gas consumption
+request,3,Extra gas consumption
+requestMinimum,110,Extra gas consumption
+requested,7,Extra gas consumption
+require(bool)(! canMint && now >= nextMintPossibleDate),1,Extra gas consumption
+require(bool)(! hardCapReached),1,Extra gas consumption
+"require(bool)(Token(token).transferFrom(vault,msg.sender,amount))",2,Extra gas consumption
+require(bool)(_addr_appc != 0x0),1,Extra gas consumption
+require(bool)(_addrs.length == _values.length && _addrs.length <= 100),1,Extra gas consumption
+require(bool)(_dev != 0x0),1,Extra gas consumption
+require(bool)(_implementation != address(0)),2,Extra gas consumption
+require(bool)(_newCEO != address(0)),2,Extra gas consumption
+require(bool)(_newOwner != address(0)),50,Extra gas consumption
+require(bool)(_owners.length == _tokens.length),2,Extra gas consumption
+require(bool)(_receivers.length == _values.length && _receivers.length >= 1),1,Extra gas consumption
+require(bool)(_recipients.length > 0),5,Extra gas consumption
+require(bool)(_to != 0x0),1,Extra gas consumption
+require(bool)(_to != address(0)),2,Extra gas consumption
+require(bool)(_tos.length > 0),9,Extra gas consumption
+require(bool)(_userlist.length > 0),2,Extra gas consumption
+require(bool)(_votes.length == itemCount),2,Extra gas consumption
+require(bool)(allowed[from][msg.sender] >= value && balances[from] >= value && value > 0),3,Extra gas consumption
+"require(bool)(appc.allowance(msg.sender,address(this)) >= _amount)",1,Extra gas consumption
+require(bool)(balanceOf[_from] >= _value),1,Extra gas consumption
+require(bool)(balanceOf[_to] + _value > balanceOf[_to]),1,Extra gas consumption
+require(bool)(balances[msg.sender] >= value && value > 0),6,Extra gas consumption
+require(bool)(canTransferBalance(msg.sender) >= _value),4,Extra gas consumption
+require(bool)(checkAddressMisused(to) != true),2,Extra gas consumption
+require(bool)(divs > 0),1,Extra gas consumption
+require(bool)(entries_count > 0),1,Extra gas consumption
+require(bool)(item.owner == msg.sender || item.owner == 0x0),1,Extra gas consumption
+require(bool)(list.length != 0),1,Extra gas consumption
+require(bool)(list.length <= MAX_RECIPIENTS),1,Extra gas consumption
+require(bool)(locks[_holder] == false),9,Extra gas consumption
+require(bool)(mainToken.balanceOf(address(this)) >= allowance),1,Extra gas consumption
+"require(bool)(mainToken.transfer(msg.sender,allowance))",1,Extra gas consumption
+require(bool)(msg.sender != playerA),1,Extra gas consumption
+require(bool)(msg.sender == 0x9797055B68C5DadDE6b3c7d5D80C9CFE2eecE6c9),1,Extra gas consumption
+require(bool)(msg.sender == address(token)),1,Extra gas consumption
+require(bool)(msg.sender == owner),2,Extra gas consumption
+require(bool)(msg.value > 0),10,Extra gas consumption
+require(bool)(msg.value >= 1000000000000000),1,Extra gas consumption
+require(bool)(msg.value >= MIN_CONTRIBUTION),9,Extra gas consumption
+require(bool)(msg.value >= punt),1,Extra gas consumption
+require(bool)(myAddresses.length > 0),1,Extra gas consumption
+require(bool)(newControlWallet != address(0)),18,Extra gas consumption
+require(bool)(newFundWallet != address(0)),18,Extra gas consumption
+require(bool)(newOwner != address(0)),8,Extra gas consumption
+require(bool)(new_owner != 0x0),10,Extra gas consumption
+require(bool)(now > startDate),10,Extra gas consumption
+require(bool)(now >= start && now < end),2,Extra gas consumption
+require(bool)(payouts[payout_id].block_id == 0),2,Extra gas consumption
+"require(bool)(proxyToken.transferFrom(msg.sender,address(this),allowance))",1,Extra gas consumption
+require(bool)(registry[_name].expires < now),1,Extra gas consumption
+require(bool)(registry[_name].owner == msg.sender),1,Extra gas consumption
+require(bool)(releaseTime > getTime()),2,Extra gas consumption
+"require(bool)(rightAndRoles.onlyRoles(msg.sender,3))",12,Extra gas consumption
+require(bool)(success),3,Extra gas consumption
+"require(bool)(super.transferFrom(from,to,value))",1,Extra gas consumption
+require(bool)(target.call.value(msg.value)()),1,Extra gas consumption
+require(bool)(to.length <= 100),1,Extra gas consumption
+require(bool)(to.length == tokens.length),1,Extra gas consumption
+require(bool)(to.length > 0),1,Extra gas consumption
+require(bool)(toAddressList.length == amountList.length),3,Extra gas consumption
+require(bool)(token.burn(_value)),1,Extra gas consumption
+"require(bool)(token.transferFrom(from,to,value))",2,Extra gas consumption
+require(bool)(tokenExists[_tokenId]),3,Extra gas consumption
+require(bool)(value <= totalRemaining),7,Extra gas consumption
+require(bool)(voters[voter].weight == 0),2,Extra gas consumption
+require(bool)(wallets[msg.sender].freezedAmount > 0 && now >= wallets[msg.sender].unfreezeDate),3,Extra gas consumption
+"require(bool,string)(! voters[voter].voted,The voter already voted.)",2,Extra gas consumption
+"require(bool,string)(OwnerManager(manager).isOwner(msg.sender),Method can only be called by an owner)",1,Extra gas consumption
+"require(bool,string)(_auctioneer != address(0),The auctioneer must be a valid address)",3,Extra gas consumption
+"require(bool,string)(amount > 0,Invalid amount provided)",1,Extra gas consumption
+"require(bool,string)(colorIndex < coloredTokens.length,Invalid color index)",4,Extra gas consumption
+"require(bool,string)(currentYear < secondsSinceRelease / (365 * 86400),Cannot update year yet)",2,Extra gas consumption
+"require(bool,string)(i <= 6 && i >= 0,Error: Invalid Piecewise Logic)",1,Extra gas consumption
+"require(bool,string)(isUnderLimit(token,amount),Daily limit has been reached)",1,Extra gas consumption
+"require(bool,string)(manager.execTransactionFromModule(to,amount,,Enum.Operation.Call),Could not execute ether transfer)",1,Extra gas consumption
+"require(bool,string)(msg.sender == chairperson,Only chairperson can give right to vote.)",2,Extra gas consumption
+"require(bool,string)(to != 0,Invalid to address provided)",1,Extra gas consumption
+"require(bool,string)(total_investors < max_investors,Max Investors Hit)",1,Extra gas consumption
+res,5,Extra gas consumption
+"res = _addr[i].call(bytes4(keccak256()(updateInfo(uint256,uint256,uint256))),_ETHUSD[i],_token[i],_value[i])",1,Extra gas consumption
+reserved,9,Extra gas consumption
+resetResolvers,4,Extra gas consumption
+restricted,2,Extra gas consumption
+result,6,Extra gas consumption
+result = false,1,Extra gas consumption
+revert()(),60,Extra gas consumption
+revert(string)(params error),6,Extra gas consumption
+rightAndRoles,10,Extra gas consumption
+roulette,4,Extra gas consumption
+round,2,Extra gas consumption
+round1,66,Extra gas consumption
+round2,66,Extra gas consumption
+roundIndex,2,Extra gas consumption
+roundNumber,1,Extra gas consumption
+rounds,10,Extra gas consumption
+s = s + base.mul(nDay.mul(nDay).mul(35).div(10000)) + base.mul(nDay.mul(4589).div(10000)),1,Extra gas consumption
+s = start,1,Extra gas consumption
+sacrifice,14,Extra gas consumption
+safeAddress,4,Extra gas consumption
+sale,4,Extra gas consumption
+saleBalance,6,Extra gas consumption
+score,3,Extra gas consumption
+secondsSinceRelease,2,Extra gas consumption
+secondsSinceRelease = block.timestamp - FIRST_YEAR_TIMESTAMP,2,Extra gas consumption
+seed,13,Extra gas consumption
+self,3,Extra gas consumption
+selfPtr,3,Extra gas consumption
+sellPrice,2,Extra gas consumption
+set,1,Extra gas consumption
+shares,3,Extra gas consumption
+signer1,4,Extra gas consumption
+signer2,4,Extra gas consumption
+signerSet,1,Extra gas consumption
+sire,20,Extra gas consumption
+snapshot,15,Extra gas consumption
+snapshots,20,Extra gas consumption
+solid,7,Extra gas consumption
+soulCap = _value,1,Extra gas consumption
+soulReward0 = _value0,1,Extra gas consumption
+soulReward1 = _value1,1,Extra gas consumption
+soulReward2 = _value2,1,Extra gas consumption
+source,4,Extra gas consumption
+spend,36,Extra gas consumption
+src,18,Extra gas consumption
+srcAmt,14,Extra gas consumption
+stage,2,Extra gas consumption
+stage = block.number.sub(tgrStartBlock).div(tgrSettingsBlocksPerStage),2,Extra gas consumption
+stageToFinalize,38,Extra gas consumption
+start,3,Extra gas consumption
+startDate,10,Extra gas consumption
+startIndex,14,Extra gas consumption
+startIndex = currentBatch * addrPerStep,14,Extra gas consumption
+startLockTime,4,Extra gas consumption
+startTime,5,Extra gas consumption
+startTokenBalance,3,Extra gas consumption
+startingLength,4,Extra gas consumption
+state,5,Extra gas consumption
+state = states[_addr[i]],1,Extra gas consumption
+store,6,Extra gas consumption
+success,613,Extra gas consumption
+"super.transfer(dst,wad)",1,Extra gas consumption
+swaps,1,Extra gas consumption
+"swaps.push(Swap(msg.sender,allowance))",1,Extra gas consumption
+synchronized(),9,Extra gas consumption
+target,4,Extra gas consumption
+target.transfer(amount),1,Extra gas consumption
+tempBonus,80,Extra gas consumption
+tempPR,56,Extra gas consumption
+tgrAmountCollected,4,Extra gas consumption
+tgrSettingsAmount,3,Extra gas consumption
+tgrSettingsPartProject,3,Extra gas consumption
+this,48,Extra gas consumption
+this.enableModule(module),1,Extra gas consumption
+this_god_listed,4,Extra gas consumption
+ticketIndex,10,Extra gas consumption
+time,3,Extra gas consumption
+time = 99999999999,8,Extra gas consumption
+timeGone(index) == true,4,Extra gas consumption
+timeGone(index) == true && getTokensBalance(index) >= airdrop.tokenAmount,2,Extra gas consumption
+timeLock,20,Extra gas consumption
+timer,50,Extra gas consumption
+timer < placedBets[betNumber].betEnd && _ended == true,2,Extra gas consumption
+timer < placedBets[betNumber].betEnd && round > placedBets[betNumber].round,8,Extra gas consumption
+timer = now,14,Extra gas consumption
+timer >= placedBets[betNumber].betEnd,18,Extra gas consumption
+timer >= toCheck.betEnd,2,Extra gas consumption
+timestamp,168,Extra gas consumption
+timestamps,1,Extra gas consumption
+to == _bridgeContract,2,Extra gas consumption
+to.transfer(amount),1,Extra gas consumption
+to.transfer(msg.value),1,Extra gas consumption
+toAddressList,11,Extra gas consumption
+toAddressList[i].transfer(amountList[i]),3,Extra gas consumption
+toCheck,11,Extra gas consumption
+toGive,72,Extra gas consumption
+toGive = value,30,Extra gas consumption
+toGive > 0,1,Extra gas consumption
+toMapOption,10,Extra gas consumption
+toReturn,4,Extra gas consumption
+toVoter,2,Extra gas consumption
+todayNo,376,Extra gas consumption
+tokOwner,4,Extra gas consumption
+token,89,Extra gas consumption
+token = 0,1,Extra gas consumption
+token = ERC20Interface(tokenAddress),4,Extra gas consumption
+token = ERC20Interface(tokens[i]),2,Extra gas consumption
+token = Token(_tokenAddress),2,Extra gas consumption
+token = Token(source),4,Extra gas consumption
+token == 0,1,Extra gas consumption
+"token.transfer(_contractOwner,balance)",2,Extra gas consumption
+"token.transfer(_recipients[j],_values)",1,Extra gas consumption
+"token.transfer(receivers[i],balances[i])",2,Extra gas consumption
+"token.transfer(recipient[i],amount)",1,Extra gas consumption
+"token.transfer(recipient[i],amount[i])",1,Extra gas consumption
+"token.transfer(recipients[i],value * 100000)",1,Extra gas consumption
+"token.transfer(recipients[i],values[i])",1,Extra gas consumption
+tokenAddress,13,Extra gas consumption
+tokenContract,66,Extra gas consumption
+tokenConversionFactor,6,Extra gas consumption
+tokenExists,3,Extra gas consumption
+tokenInstance,24,Extra gas consumption
+tokenInstance = ERC20(token),12,Extra gas consumption
+tokenList,14,Extra gas consumption
+tokenLockInfo,5,Extra gas consumption
+tokenNumber,9,Extra gas consumption
+tokenOwners,1,Extra gas consumption
+tokenOwners[_tokenId] = newOwner,2,Extra gas consumption
+tokenQty,4,Extra gas consumption
+tokenReward,10,Extra gas consumption
+tokenToUnlock,5,Extra gas consumption
+tokenToUnlock = locked.balance,2,Extra gas consumption
+tokenTotalSupply,2,Extra gas consumption
+tokens,437,Extra gas consumption
+tokens = 0,11,Extra gas consumption
+tokens = tokensPerEth.mul(msg.value) / 1000000000000000000,2,Extra gas consumption
+tokensNum,3,Extra gas consumption
+tokensPerEth,3,Extra gas consumption
+tokensProject,3,Extra gas consumption
+tos,18,Extra gas consumption
+total,6,Extra gas consumption
+total += msg.value,1,Extra gas consumption
+total = set,1,Extra gas consumption
+totalAmount,1,Extra gas consumption
+totalAmount = amount.mul(totalList),1,Extra gas consumption
+totalBalace,4,Extra gas consumption
+totalBounties,1,Extra gas consumption
+totalBounties = (totalSupply.div(100)).mul(10),1,Extra gas consumption
+totalDistributed = totalReserved.add(totalBounties),1,Extra gas consumption
+totalList,1,Extra gas consumption
+totalList = list.length,1,Extra gas consumption
+totalRemaining,8,Extra gas consumption
+totalRemaining = totalSupply.sub(totalDistributed),1,Extra gas consumption
+totalReserved,1,Extra gas consumption
+totalReserved = (totalSupply.div(100)).mul(10),1,Extra gas consumption
+totalSupply,15,Extra gas consumption
+totalSupply = 1000000000e8,1,Extra gas consumption
+totalSupply_,2,Extra gas consumption
+totalUSD,2,Extra gas consumption
+totalshares,6,Extra gas consumption
+totalshares += shares[members[i]],2,Extra gas consumption
+toy,4,Extra gas consumption
+"transferFrom(msg.sender,dst,wad)",2,Extra gas consumption
+transferResult,7,Extra gas consumption
+transferResult == true,3,Extra gas consumption
+true,219,Extra gas consumption
+ttl1,5,Extra gas consumption
+tx.origin,1,Extra gas consumption
+txcounter,2,Extra gas consumption
+txcounter = Tx.length,1,Extra gas consumption
+uid,18,Extra gas consumption
+"uint256(sha256()(abi.encodePacked(blockhash(uint256)(block.number - places.length - 1),msg.sender,seed += block.difficulty))) % lessThan",1,Extra gas consumption
+unitValue,14,Extra gas consumption
+unlockQuantity,9,Extra gas consumption
+unlockQuantity[_to] = unlockQuantity[_to].add(_value),4,Extra gas consumption
+unlockUnit,2,Extra gas consumption
+unreleased,5,Extra gas consumption
+unsoldAmount,5,Extra gas consumption
+updater,2,Extra gas consumption
+usb,2,Extra gas consumption
+usb = ContractConn(_tokenAddr),2,Extra gas consumption
+"usb.transfer(_dests[i],_values[i])",1,Extra gas consumption
+useamt = _amttype * (10 ** uint256(decimals)),2,Extra gas consumption
+used_tickets,3,Extra gas consumption
+user,22,Extra gas consumption
+userEtherOf,14,Extra gas consumption
+userToIsExisted,2,Extra gas consumption
+user[referrer].countReferralsByLevel[level] ++,2,Extra gas consumption
+users,2,Extra gas consumption
+using_ticket,5,Extra gas consumption
+val,1,Extra gas consumption
+val = msg.value,1,Extra gas consumption
+valFee,6,Extra gas consumption
+"valFee = calculateFee(_value,_fee,1000)",3,Extra gas consumption
+validationPrice = newPrice,1,Extra gas consumption
+value,92,Extra gas consumption
+value = totalRemaining,35,Extra gas consumption
+value > totalRemaining,35,Extra gas consumption
+values,63,Extra gas consumption
+vault,4,Extra gas consumption
+vectoryId,12,Extra gas consumption
+volume,9,Extra gas consumption
+voted[voter] = true,2,Extra gas consumption
+voter,14,Extra gas consumption
+voter = msg.sender,2,Extra gas consumption
+voters,11,Extra gas consumption
+voters[toVoter].weight = 1,1,Extra gas consumption
+voters[voter].weight = 1,2,Extra gas consumption
+waiting_prayer,5,Extra gas consumption
+wallet,1,Extra gas consumption
+wallets[msg.sender].freezedAmount = 0,3,Extra gas consumption
+wallets[msg.sender].unfreezeDate = 0,3,Extra gas consumption
+weiAmount,30,Extra gas consumption
+weiVal,6,Extra gas consumption
+whenPaused(),5,Extra gas consumption
+whiteListERC20,4,Extra gas consumption
+whiteListERC223,2,Extra gas consumption
+whiteListStatus,2,Extra gas consumption
+win,6,Extra gas consumption
+win_amount,4,Extra gas consumption
+winnerAddress,2,Extra gas consumption
+winnerID,3,Extra gas consumption
+winnerlist,2,Extra gas consumption
+withdrawable,13,Extra gas consumption
+x < _from.length,1,Extra gas consumption
+! assertion,1,Integer overflow or underflow
+! isContract(_to),2,Integer overflow or underflow
+! isLocked() || _sender == owner,3,Integer overflow or underflow
+! supportsToken(msg.sender),2,Integer overflow or underflow
+(address(0)),4,Integer overflow or underflow
+(advisorsTokensIssuedOn[advisorAddress] + 2592000),1,Integer overflow or underflow
+(balances[_addr] - _value >= lockSupply / 5 * 2),1,Integer overflow or underflow
+(balances[_addr] - _value >= lockSupply / 5),1,Integer overflow or underflow
+(length > 0),5,Integer overflow or underflow
+(now - prtime[owner]) >= 86400,1,Integer overflow or underflow
+"(v,b)",3,Integer overflow or underflow
+0x0,1,Integer overflow or underflow
+"Approval(msg.sender,_spender,_value)",2,Integer overflow or underflow
+Bank,20,Integer overflow or underflow
+CCC,3,Integer overflow or underflow
+DUTCH_EXCHANGE,2,Integer overflow or underflow
+"DUTCH_EXCHANGE.deposit(WETH,msg.value)",1,Integer overflow or underflow
+"Deposit(msg.sender,msg.value)",1,Integer overflow or underflow
+DueTime,2,Integer overflow or underflow
+"ERC20TokenInterface(token).transfer(destination,balance)",4,Integer overflow or underflow
+ERC721Construct,3,Integer overflow or underflow
+"ERC721Construct = new ERC721Contract(name,symbol)",1,Integer overflow or underflow
+ERC721Construct.addMinter(owner),1,Integer overflow or underflow
+ERC721Construct.renounceMinter(),1,Integer overflow or underflow
+ETHtoP3Dbymasternode[masternode] = 0,2,Integer overflow or underflow
+EtherWrapper,14,Integer overflow or underflow
+ExtendedMath,2,Integer overflow or underflow
+FinishAirDrop(),1,Integer overflow or underflow
+FinishPreSale(),1,Integer overflow or underflow
+Guesses,1,Integer overflow or underflow
+"Lock(_address,_time)",3,Integer overflow or underflow
+MaxPlayers = num,1,Integer overflow or underflow
+OneCentETH,1,Integer overflow or underflow
+OneCentETH = price.USD(0),1,Integer overflow or underflow
+P3Dcontract_.buy.value(amt)(masternode),2,Integer overflow or underflow
+P3Dcontract_.withdraw(),2,Integer overflow or underflow
+Pot,6,Integer overflow or underflow
+Premium[msg.sender] = true,1,Integer overflow or underflow
+RATE,1,Integer overflow or underflow
+RATE = _value,10,Integer overflow or underflow
+RDN,1,Integer overflow or underflow
+RNGresult,4,Integer overflow or underflow
+Raffles,15,Integer overflow or underflow
+Raffles[rafnr].validation = true,4,Integer overflow or underflow
+SPASM_,2,Integer overflow or underflow
+SPASM_.disburse.value(base)(),2,Integer overflow or underflow
+STRTToEth,1,Integer overflow or underflow
+SafeERC20,3,Integer overflow or underflow
+SafeMath,359,Integer overflow or underflow
+"SetLock(msg.sender,_owner,_value)",1,Integer overflow or underflow
+Spudgame,8,Integer overflow or underflow
+States,3,Integer overflow or underflow
+Status,1,Integer overflow or underflow
+TMP_5,1,Integer overflow or underflow
+TimeInSec,2,Integer overflow or underflow
+"TokenReceiver(target).tokenFallback(target,qty,data)",2,Integer overflow or underflow
+"Transfer(address(this),msg.sender,tokens)",1,Integer overflow or underflow
+"Transfer(msg.sender,_recipient,_value)",1,Integer overflow or underflow
+"Transfer(msg.sender,_target,_amount)",2,Integer overflow or underflow
+"Transfer(msg.sender,_to,_value)",15,Integer overflow or underflow
+"Transfer(msg.sender,target,qty)",2,Integer overflow or underflow
+"Transfer(owner,msg.sender,tokenValue)",1,Integer overflow or underflow
+Tx,11,Integer overflow or underflow
+WETH,2,Integer overflow or underflow
+WETH.deposit.value(msg.value)(),1,Integer overflow or underflow
+WrapperEnabled(),10,Integer overflow or underflow
+_MINIMUM_TARGET,2,Integer overflow or underflow
+__isTokenFallback = false,4,Integer overflow or underflow
+__isTokenFallback = true,2,Integer overflow or underflow
+_addr,5,Integer overflow or underflow
+_address,79,Integer overflow or underflow
+_agent,4,Integer overflow or underflow
+_airdrop,2,Integer overflow or underflow
+_airdropAmount,65,Integer overflow or underflow
+_airdropAmount = _totalRemaining,14,Integer overflow or underflow
+_airdropAmount > _totalRemaining,14,Integer overflow or underflow
+_airdropTotal < _airdropSupply && ! initialized[_address],14,Integer overflow or underflow
+_amount,39,Integer overflow or underflow
+_balanceOf,4,Integer overflow or underflow
+_balanceOf[msg.sender] -= _value,4,Integer overflow or underflow
+_beneficiary,3,Integer overflow or underflow
+_buyer,12,Integer overflow or underflow
+_card,16,Integer overflow or underflow
+_codeLength,1,Integer overflow or underflow
+_codeLength > 0,1,Integer overflow or underflow
+_contracts,2,Integer overflow or underflow
+_data,4,Integer overflow or underflow
+_decimals,8,Integer overflow or underflow
+_dep,4,Integer overflow or underflow
+_depositId,4,Integer overflow or underflow
+_eosAddress,2,Integer overflow or underflow
+_eth,28,Integer overflow or underflow
+_eventData_,66,Integer overflow or underflow
+_from,110,Integer overflow or underflow
+_game,11,Integer overflow or underflow
+_hashDeal,10,Integer overflow or underflow
+_index,7,Integer overflow or underflow
+_invest,29,Integer overflow or underflow
+_isPromoted,16,Integer overflow or underflow
+_minter,1,Integer overflow or underflow
+_name,18,Integer overflow or underflow
+_newOwner,11,Integer overflow or underflow
+_newOwner != address(0),1,Integer overflow or underflow
+_newRecovery,12,Integer overflow or underflow
+_newStatus,7,Integer overflow or underflow
+_now,40,Integer overflow or underflow
+_owner,24,Integer overflow or underflow
+_pID,46,Integer overflow or underflow
+_rID,116,Integer overflow or underflow
+_rate,1,Integer overflow or underflow
+_rateEthJpy,2,Integer overflow or underflow
+_recipient,6,Integer overflow or underflow
+_result,7,Integer overflow or underflow
+_result = true,8,Integer overflow or underflow
+"_sell(msg.sender,_value)",1,Integer overflow or underflow
+_seller,2,Integer overflow or underflow
+_sender,5,Integer overflow or underflow
+_sig,1,Integer overflow or underflow
+_sig.length != 65,1,Integer overflow or underflow
+_spender,8,Integer overflow or underflow
+_startBalance,2,Integer overflow or underflow
+_startTime,4,Integer overflow or underflow
+_symbol,16,Integer overflow or underflow
+_time,9,Integer overflow or underflow
+_timeFrom,2,Integer overflow or underflow
+_to,165,Integer overflow or underflow
+_to != address(this),3,Integer overflow or underflow
+_toUserMoney,9,Integer overflow or underflow
+_tokenReceiver,1,Integer overflow or underflow
+_tokenReceiver = ERC223ReceivingContract(_to),1,Integer overflow or underflow
+"_tokenReceiver.tokenFallback(msg.sender,_value,_data)",1,Integer overflow or underflow
+_tokenURIs[tokenId],4,Integer overflow or underflow
+_totalRemaining,28,Integer overflow or underflow
+_totalSupply,17,Integer overflow or underflow
+_totalSupply = _totalSupply.sub(_value),9,Integer overflow or underflow
+"_transfer(msg.sender,_to,_value)",62,Integer overflow or underflow
+"_transfer(owner,newOwner,balanceOf[owner])",1,Integer overflow or underflow
+"_transfer(this,_to,_value)",1,Integer overflow or underflow
+_type,4,Integer overflow or underflow
+_type == 4,1,Integer overflow or underflow
+_value,252,Integer overflow or underflow
+_value = _value * DEC,1,Integer overflow or underflow
+_value = balanceOf[_owner],1,Integer overflow or underflow
+_value > balanceOf[_owner],1,Integer overflow or underflow
+_values,5,Integer overflow or underflow
+a <= 250,2,Integer overflow or underflow
+account,10,Integer overflow or underflow
+active,1,Integer overflow or underflow
+adAccount.send(msg.value * 3 / 100),2,Integer overflow or underflow
+addr,40,Integer overflow or underflow
+addresIndex,2,Integer overflow or underflow
+addressFrozenFund,12,Integer overflow or underflow
+admRefPerc,6,Integer overflow or underflow
+advisorsTokensIssued,1,Integer overflow or underflow
+advisorsTokensIssuedOn,4,Integer overflow or underflow
+advisorsTokensIssuedOn[advisorAddress] == 0,1,Integer overflow or underflow
+advisorsTokensIssued[msg.sender] < advisorsWithEntitledSupply[msg.sender],1,Integer overflow or underflow
+advisorsWithEntitledSupply[msg.sender] > 0,1,Integer overflow or underflow
+airdrop = _airdrop,2,Integer overflow or underflow
+allowed,2,Integer overflow or underflow
+allowed[_owner][_spender],12,Integer overflow or underflow
+allowed[msg.sender][_spender] = _value,2,Integer overflow or underflow
+amount,68,Integer overflow or underflow
+amount = 0,2,Integer overflow or underflow
+amount = getInvestorDividend(sender),2,Integer overflow or underflow
+amount = invested[msg.sender] * (address(this).balance / (invested[msg.sender] * 100)) / 100 * (block.number - atBlock[msg.sender]) / 6100,1,Integer overflow or underflow
+amount = invested[msg.sender] * 5 / 100 * (block.number - atBlock[msg.sender]) / 5900,1,Integer overflow or underflow
+amount = invested[to] * 5 / 100 * (block.number - atBlock[msg.sender]) / 6170,1,Integer overflow or underflow
+amount = invested[to] * 5 / 100 * (block.number - atBlock[to]) / 6170,1,Integer overflow or underflow
+amount = msg.value,4,Integer overflow or underflow
+amount = msg.value * STRTToEth,1,Integer overflow or underflow
+amount >= address(this).balance,2,Integer overflow or underflow
+amountA,6,Integer overflow or underflow
+amount_eth,1,Integer overflow or underflow
+amount_eth += msg.value,1,Integer overflow or underflow
+amt,2,Integer overflow or underflow
+amt = ETHtoP3Dbymasternode[masternode],2,Integer overflow or underflow
+assert(bool)(msg.value == 0),1,Integer overflow or underflow
+assert(bool)(remainTokens() >= 500000000000000000000),1,Integer overflow or underflow
+"assert(bool)(token.transferFrom(from,to,value))",1,Integer overflow or underflow
+assertion,1,Integer overflow or underflow
+atBlock,5,Integer overflow or underflow
+atBlock[msg.sender] = block.number,3,Integer overflow or underflow
+auctionIndex,1,Integer overflow or underflow
+b = 0,2,Integer overflow or underflow
+b = notTooLongSinceUpdated() && value != 0,3,Integer overflow or underflow
+balance,8,Integer overflow or underflow
+balance = ERC20TokenInterface(token).balanceOf(address(this)),4,Integer overflow or underflow
+balanceOf,35,Integer overflow or underflow
+balanceOf[_from] = balanceOf[_from].sub(_value),3,Integer overflow or underflow
+balanceOf[_to] = balanceOf[_to].add(_value),3,Integer overflow or underflow
+balanceOf[_to].add(_value) <= balanceOf[_to],3,Integer overflow or underflow
+balanceOf[msg.sender] = balanceOf[msg.sender].add(tokenValue),1,Integer overflow or underflow
+balanceOf[msg.sender] = balanceOf[msg.sender].sub(qty),2,Integer overflow or underflow
+balanceOf[owner] = balanceOf[owner].sub(tokenValue),1,Integer overflow or underflow
+balanceOf[target] = balanceOf[target].add(qty),2,Integer overflow or underflow
+balances,102,Integer overflow or underflow
+balances[_address],14,Integer overflow or underflow
+balances[_address] + _airdropAmount,14,Integer overflow or underflow
+balances[_recipient] += _value,3,Integer overflow or underflow
+balances[_target] = balances[_target].add(_amount),4,Integer overflow or underflow
+balances[_to] += _value,4,Integer overflow or underflow
+"balances[_to] = SafeMath.add(balances[_to],_value)",1,Integer overflow or underflow
+balances[_to] = balances[_to].add(_value),19,Integer overflow or underflow
+balances[address(this)] -= tokens,1,Integer overflow or underflow
+balances[devWallet] < amount,1,Integer overflow or underflow
+balances[devWallet] = balances[devWallet] - amount,1,Integer overflow or underflow
+balances[msg.sender] != 0,1,Integer overflow or underflow
+balances[msg.sender] += msg.value,1,Integer overflow or underflow
+balances[msg.sender] += tokens,1,Integer overflow or underflow
+balances[msg.sender] -= _value,3,Integer overflow or underflow
+"balances[msg.sender] = SafeMath.sub(balances[msg.sender],_value)",1,Integer overflow or underflow
+balances[msg.sender] = balances[msg.sender] + amount,1,Integer overflow or underflow
+balances[msg.sender] = balances[msg.sender].add(tokenBought),1,Integer overflow or underflow
+balances[msg.sender] = balances[msg.sender].add(tokens),1,Integer overflow or underflow
+balances[msg.sender] = balances[msg.sender].sub(_amount),4,Integer overflow or underflow
+balances[msg.sender] = balances[msg.sender].sub(_value),6,Integer overflow or underflow
+balances[owner] = balances[owner].sub(tokens),1,Integer overflow or underflow
+balances[to] = balances[to].add(tokens),6,Integer overflow or underflow
+base,18,Integer overflow or underflow
+basePriceD,3,Integer overflow or underflow
+batch,4,Integer overflow or underflow
+batch += 1,2,Integer overflow or underflow
+batch = 0,2,Integer overflow or underflow
+beneficiary,9,Integer overflow or underflow
+betForJackpot,48,Integer overflow or underflow
+betStruct,20,Integer overflow or underflow
+betsDatabase,50,Integer overflow or underflow
+block.number,27,Integer overflow or underflow
+block.timestamp,49,Integer overflow or underflow
+blocklock,8,Integer overflow or underflow
+blocknr,7,Integer overflow or underflow
+blocknumber,1,Integer overflow or underflow
+bonus,4,Integer overflow or underflow
+bonusRateOneEth = ctuContract.bonusRateOneEth(),1,Integer overflow or underflow
+bonus_percentage,2,Integer overflow or underflow
+buyPrice = newBuyPrice,4,Integer overflow or underflow
+buyPrice = newPrice,1,Integer overflow or underflow
+bytes(guess).length == 0,1,Integer overflow or underflow
+change,16,Integer overflow or underflow
+claimedToday,6,Integer overflow or underflow
+claimedYesterday,6,Integer overflow or underflow
+codeLength,2,Integer overflow or underflow
+codeLength > 0,2,Integer overflow or underflow
+count,45,Integer overflow or underflow
+count = uint8(_contracts.length),1,Integer overflow or underflow
+count > 0,1,Integer overflow or underflow
+crowdSaleOngoing,4,Integer overflow or underflow
+crowdSaleSupply,6,Integer overflow or underflow
+ctuContract,7,Integer overflow or underflow
+curPosition,10,Integer overflow or underflow
+currJackpotBetID,60,Integer overflow or underflow
+currentBalance,5,Integer overflow or underflow
+currentBalance = tkn.balanceOf(msg.sender),1,Integer overflow or underflow
+currentLevel,5,Integer overflow or underflow
+currentLevel += 1,1,Integer overflow or underflow
+currentTokenOfferingRaised,2,Integer overflow or underflow
+curround,8,Integer overflow or underflow
+customallow = _to,2,Integer overflow or underflow
+customer,4,Integer overflow or underflow
+dailyDistribution,5,Integer overflow or underflow
+dates,1,Integer overflow or underflow
+dayStartTime,8,Integer overflow or underflow
+dayStartTime < now.sub(timestep),2,Integer overflow or underflow
+daysPassed = (now.sub(dayStartTime)).div(timestep),2,Integer overflow or underflow
+deadline,10,Integer overflow or underflow
+deadlineToFreedTeamPool,1,Integer overflow or underflow
+deals,7,Integer overflow or underflow
+dealsIndex,6,Integer overflow or underflow
+decimalPercent,3,Integer overflow or underflow
+decimalsDiff,2,Integer overflow or underflow
+deployer,5,Integer overflow or underflow
+deposit,8,Integer overflow or underflow
+deposit = deposits[_depositId],2,Integer overflow or underflow
+deposited,12,Integer overflow or underflow
+deposited[msg.sender] != 0,1,Integer overflow or underflow
+deposits,2,Integer overflow or underflow
+depositsPercents,12,Integer overflow or underflow
+devWallet,4,Integer overflow or underflow
+devamount,4,Integer overflow or underflow
+diff,4,Integer overflow or underflow
+divs,6,Integer overflow or underflow
+divs = harvestabledivs(),2,Integer overflow or underflow
+drawblock,12,Integer overflow or underflow
+duration,6,Integer overflow or underflow
+endWeek,6,Integer overflow or underflow
+eos,1,Integer overflow or underflow
+eos = register[_addr],1,Integer overflow or underflow
+eos == 0,1,Integer overflow or underflow
+epochsMined,1,Integer overflow or underflow
+epochsMined = _BLOCKS_PER_READJUSTMENT,1,Integer overflow or underflow
+ethBlocksSinceLastDifficultyPeriod,3,Integer overflow or underflow
+ethBlocksSinceLastDifficultyPeriod < targetEthBlocksPerDiffPeriod,1,Integer overflow or underflow
+ethBlocksSinceLastDifficultyPeriod = block.number - latestDifficultyPeriodStarted,1,Integer overflow or underflow
+ethInWei,1,Integer overflow or underflow
+ethInWei = ethInWei + msg.value,1,Integer overflow or underflow
+etherBalance,28,Integer overflow or underflow
+executeSell(),2,Integer overflow or underflow
+false,5,Integer overflow or underflow
+fee,2,Integer overflow or underflow
+"fee = SafeMath.div(address(this).balance,100)",1,Integer overflow or underflow
+feecounter,2,Integer overflow or underflow
+finishTime,4,Integer overflow or underflow
+from,18,Integer overflow or underflow
+from == company && now < unlockTime,1,Integer overflow or underflow
+from == crowdsale,1,Integer overflow or underflow
+funderBalance,26,Integer overflow or underflow
+gameId,8,Integer overflow or underflow
+gameId = gameContract.games(_game),8,Integer overflow or underflow
+gameNum,40,Integer overflow or underflow
+games,28,Integer overflow or underflow
+get(msg.sender),1,Integer overflow or underflow
+getvalue,1,Integer overflow or underflow
+getvalue = balances[msg.sender] * 1 / 100 * (block.number - blocknumber[msg.sender]) / 5900,1,Integer overflow or underflow
+guess,4,Integer overflow or underflow
+initialized,14,Integer overflow or underflow
+interest,5,Integer overflow or underflow
+invest,21,Integer overflow or underflow
+invested,31,Integer overflow or underflow
+invested[msg.sender] != 0,4,Integer overflow or underflow
+invested[msg.sender] += msg.value,2,Integer overflow or underflow
+invested[sender] != 0,2,Integer overflow or underflow
+invested[to] == 0,2,Integer overflow or underflow
+investor,84,Integer overflow or underflow
+investor = msg.sender,6,Integer overflow or underflow
+invests,3,Integer overflow or underflow
+invests[sender] != 0,1,Integer overflow or underflow
+isActive,1,Integer overflow or underflow
+isContract(target),2,Integer overflow or underflow
+isCrowdsalePaused,3,Integer overflow or underflow
+is_contract,4,Integer overflow or underflow
+jackpotBank,18,Integer overflow or underflow
+latestDifficultyPeriodStarted,1,Integer overflow or underflow
+length,7,Integer overflow or underflow
+length > 0,2,Integer overflow or underflow
+levelEndDate,1,Integer overflow or underflow
+levelEndDate[currentLevel] < now,1,Integer overflow or underflow
+lockAtTime,8,Integer overflow or underflow
+lockOf[_owner] = _value,1,Integer overflow or underflow
+lockSupply,6,Integer overflow or underflow
+lockaddress[_address] = _time,3,Integer overflow or underflow
+locked,6,Integer overflow or underflow
+mainsaleStart,3,Integer overflow or underflow
+manager,4,Integer overflow or underflow
+marketClosureTime,2,Integer overflow or underflow
+masternode = 0x989eB9629225B8C06997eF0577CC08535fD789F9,2,Integer overflow or underflow
+masternode == 0x0,2,Integer overflow or underflow
+maximalDecimalPercent,2,Integer overflow or underflow
+members,5,Integer overflow or underflow
+methodId,1,Integer overflow or underflow
+"methodId = bytes4(keccak256()(transfer(address,uint256)))",1,Integer overflow or underflow
+minter = _minter,1,Integer overflow or underflow
+money = refunds[msg.sender],1,Integer overflow or underflow
+msg.sender,166,Integer overflow or underflow
+msg.sender == owner,3,Integer overflow or underflow
+msg.sender.transfer(amount),2,Integer overflow or underflow
+msg.sender.transfer(money),1,Integer overflow or underflow
+msg.value,197,Integer overflow or underflow
+msg.value > 0,3,Integer overflow or underflow
+multisend,1,Integer overflow or underflow
+nTokens,9,Integer overflow or underflow
+newBuyPrice,4,Integer overflow or underflow
+"newERC721(address(ERC721Construct),name,symbol,owner)",1,Integer overflow or underflow
+newGuess,3,Integer overflow or underflow
+newGuess.guess = guess,1,Integer overflow or underflow
+newGuess.player = msg.sender,1,Integer overflow or underflow
+newOwner,157,Integer overflow or underflow
+newOwner != address(0),65,Integer overflow or underflow
+newPrice,1,Integer overflow or underflow
+newSellPrice,2,Integer overflow or underflow
+newSupply,5,Integer overflow or underflow
+nextRelease,6,Integer overflow or underflow
+now,165,Integer overflow or underflow
+now > lockAtTime + 220752000,2,Integer overflow or underflow
+now > lockAtTime + 441504000,2,Integer overflow or underflow
+now > lockAtTime + 662256000,2,Integer overflow or underflow
+now > lockAtTime + 883008000,2,Integer overflow or underflow
+now > marketClosureTime,1,Integer overflow or underflow
+num,2,Integer overflow or underflow
+o,1,Integer overflow or underflow
+one_ether_usd_price,2,Integer overflow or underflow
+onlyAuth(),2,Integer overflow or underflow
+onlyIfArb,2,Integer overflow or underflow
+onlyOwner(),28,Integer overflow or underflow
+oracle = o,1,Integer overflow or underflow
+orders,5,Integer overflow or underflow
+overallPayment,2,Integer overflow or underflow
+owed,3,Integer overflow or underflow
+owner,15,Integer overflow or underflow
+owner != msg.sender || num < 3 || num >= 1000,1,Integer overflow or underflow
+owner = _newOwner,7,Integer overflow or underflow
+owner = msg.sender,2,Integer overflow or underflow
+owner = newOwner,76,Integer overflow or underflow
+owner.transfer(msg.value),1,Integer overflow or underflow
+owner.transfer(ths.balance / 100),1,Integer overflow or underflow
+ownerCtuContract,3,Integer overflow or underflow
+paymentAmount,2,Integer overflow or underflow
+payments,4,Integer overflow or underflow
+payments[_index].rateEthJpy = _rateEthJpy,1,Integer overflow or underflow
+payout,2,Integer overflow or underflow
+payout = invests[sender] / 100 * (now - dates[sender]) / 86400,1,Integer overflow or underflow
+pendingOwner = newOwner,2,Integer overflow or underflow
+phaseOneEnd,2,Integer overflow or underflow
+phaseThreeEnd,4,Integer overflow or underflow
+phaseTwoEnd,2,Integer overflow or underflow
+playerBetInfoOf,5,Integer overflow or underflow
+players.length < MaxPlayers,1,Integer overflow or underflow
+plyr_,28,Integer overflow or underflow
+presale1Start,3,Integer overflow or underflow
+presale2Start,3,Integer overflow or underflow
+price,1,Integer overflow or underflow
+priceOfPeriod,3,Integer overflow or underflow
+pricePerToken,2,Integer overflow or underflow
+prtime,1,Integer overflow or underflow
+rafnr,30,Integer overflow or underflow
+rate = _rate,1,Integer overflow or underflow
+rawTokens,3,Integer overflow or underflow
+reTokens,2,Integer overflow or underflow
+reTokens = remainTokens(),2,Integer overflow or underflow
+receiverAddress,2,Integer overflow or underflow
+ref,2,Integer overflow or underflow
+refPerc,2,Integer overflow or underflow
+refblocknr,7,Integer overflow or underflow
+referr,8,Integer overflow or underflow
+referrer,33,Integer overflow or underflow
+refunds[msg.sender] = 0,1,Integer overflow or underflow
+releaseDates,4,Integer overflow or underflow
+remaining,14,Integer overflow or underflow
+require(bool)(! depositLock),1,Integer overflow or underflow
+require(bool)(_amount > 0),2,Integer overflow or underflow
+require(bool)(_newOwner.ownershipTransferred(msg.sender)),3,Integer overflow or underflow
+require(bool)(_time > now),3,Integer overflow or underflow
+require(bool)(_to != 0x0 && balances[_from] >= _value && allowed[_from][msg.sender] >= _value && _value > 0 && isLocked == false),1,Integer overflow or underflow
+require(bool)(_to != 0x0 && balances[_from] >= _value && allowed[_from][msg.sender] >= _value && _value > 0),1,Integer overflow or underflow
+require(bool)(_to != 0x0 && balances[msg.sender] >= _value && _value > 0 && isLocked == false),1,Integer overflow or underflow
+require(bool)(_to != 0x0 && balances[msg.sender] >= _value && _value > 0),1,Integer overflow or underflow
+require(bool)(_to != 0x0),5,Integer overflow or underflow
+require(bool)(_to != address(0)),16,Integer overflow or underflow
+require(bool)(_value <= balances[msg.sender]),11,Integer overflow or underflow
+require(bool)(_value >= 0),3,Integer overflow or underflow
+require(bool)(activated),2,Integer overflow or underflow
+require(bool)(amount > 0),2,Integer overflow or underflow
+require(bool)(balanceOf[_from] >= _value),3,Integer overflow or underflow
+require(bool)(balances[address(this)] > msg.value * token_price),1,Integer overflow or underflow
+require(bool)(balances[msg.sender] >= _value && _value > 0),3,Integer overflow or underflow
+require(bool)(beneficiary != 0x0),3,Integer overflow or underflow
+require(bool)(block.timestamp >= 1537164000 || msg.sender == deployer),4,Integer overflow or underflow
+require(bool)(block.timestamp >= deadlineToFreedTeamPool),1,Integer overflow or underflow
+require(bool)(dealsIndex[_hashDeal] == 0),1,Integer overflow or underflow
+require(bool)(divs > 0),2,Integer overflow or underflow
+require(bool)(hasClosed()),2,Integer overflow or underflow
+require(bool)(isActive > 0 && msg.value >= 500000000000000000),1,Integer overflow or underflow
+require(bool)(isCrowdsalePaused == false),3,Integer overflow or underflow
+require(bool)(msg.sender != owner),1,Integer overflow or underflow
+require(bool)(msg.sender == serviceAddress),2,Integer overflow or underflow
+require(bool)(msg.value > 0 && balances[owner] >= 1000000),1,Integer overflow or underflow
+require(bool)(msg.value > 0),1,Integer overflow or underflow
+require(bool)(nTokens[_symbol] != address(0)),6,Integer overflow or underflow
+require(bool)(newOwner != address(0)),7,Integer overflow or underflow
+require(bool)(now > frozenAccount[msg.sender]),4,Integer overflow or underflow
+require(bool)(now >= phaseThreeEnd),2,Integer overflow or underflow
+require(bool)(payments[_index].paymentDue <= block.timestamp),1,Integer overflow or underflow
+require(bool)(payments[_index].requestedTime + 24 * 60 * 60 < block.timestamp),1,Integer overflow or underflow
+require(bool)(payments[_index].status == Status.Pending || payments[_index].status == Status.Rejected),1,Integer overflow or underflow
+require(bool)(payments[_index].status == Status.Requested),1,Integer overflow or underflow
+require(bool)(startingTime < block.timestamp && closingTime > block.timestamp),1,Integer overflow or underflow
+require(bool)(tokenBought <= balances[owner]),1,Integer overflow or underflow
+require(bool)(value <= totalRemaining),28,Integer overflow or underflow
+require(bool)(value > 0),1,Integer overflow or underflow
+require(bool)(weiRaised.add(amount) <= cap),3,Integer overflow or underflow
+"require(bool,string)(active,Exchange is not active)",1,Integer overflow or underflow
+"require(bool,string)(currentBalance > 0,You should have Tokens to exchange)",1,Integer overflow or underflow
+"require(bool,string)(gameId == _game,gameIds must match)",8,Integer overflow or underflow
+"require(bool,string)(msg.sender == tx.origin,msg.sender == tx.orgin)",1,Integer overflow or underflow
+"require(bool,string)(msg.value >= priceOfPeriod[_type],Payment Amount Wrong.)",1,Integer overflow or underflow
+"require(bool,string)(receivedUser[msg.sender] == false,Each address gets KN Airdrop only once time!)",1,Integer overflow or underflow
+"require(bool,string)(xcc_amount > 0,xcc_amount > 0)",1,Integer overflow or underflow
+result,2,Integer overflow or underflow
+result = ............,1,Integer overflow or underflow
+revert()(),80,Integer overflow or underflow
+revert(string)(Contract does not accept ETH.),1,Integer overflow or underflow
+revert(string)(ETH not accepted),3,Integer overflow or underflow
+rewards,4,Integer overflow or underflow
+round_,86,Integer overflow or underflow
+scaledDividendPerToken,6,Integer overflow or underflow
+selfPayout(),2,Integer overflow or underflow
+sellPrice = newSellPrice,2,Integer overflow or underflow
+sendAmount,9,Integer overflow or underflow
+sender,41,Integer overflow or underflow
+sender = msg.sender,6,Integer overflow or underflow
+sender.transfer(getvalue),1,Integer overflow or underflow
+serviceAddress,2,Integer overflow or underflow
+sevenHundredths,2,Integer overflow or underflow
+shares,3,Integer overflow or underflow
+size,2,Integer overflow or underflow
+size > 0,2,Integer overflow or underflow
+soldToken,7,Integer overflow or underflow
+source,1,Integer overflow or underflow
+startBalance = _startBalance,2,Integer overflow or underflow
+startDecimalPercent,2,Integer overflow or underflow
+state,1,Integer overflow or underflow
+state = States.Cancelled,2,Integer overflow or underflow
+step,17,Integer overflow or underflow
+stopInvest,1,Integer overflow or underflow
+success,10,Integer overflow or underflow
+supply,3,Integer overflow or underflow
+target,10,Integer overflow or underflow
+targetEthBlocksPerDiffPeriod,3,Integer overflow or underflow
+targetEthBlocksPerDiffPeriod = epochsMined * 60,1,Integer overflow or underflow
+tempEmptyStringTest,1,Integer overflow or underflow
+tempEmptyStringTest = bytes(source),1,Integer overflow or underflow
+tempEmptyStringTest.length == 0,1,Integer overflow or underflow
+this,49,Integer overflow or underflow
+thisBalance,1,Integer overflow or underflow
+thisBalance = address(this).balance,1,Integer overflow or underflow
+ths,1,Integer overflow or underflow
+time,5,Integer overflow or underflow
+timeInvest,4,Integer overflow or underflow
+timestep,6,Integer overflow or underflow
+tkn,3,Integer overflow or underflow
+"tkn = Tkn(msg.sender,_sender,_value)",2,Integer overflow or underflow
+to.transfer(amount),1,Integer overflow or underflow
+toGive,101,Integer overflow or underflow
+toPay,49,Integer overflow or underflow
+token,21,Integer overflow or underflow
+"token.transfer(owner[0],reTokens)",2,Integer overflow or underflow
+tokenA,6,Integer overflow or underflow
+tokenAdmin,4,Integer overflow or underflow
+tokenAmount,5,Integer overflow or underflow
+tokenB,6,Integer overflow or underflow
+tokenBought,4,Integer overflow or underflow
+tokenBought = msg.value.mul(10 ** 18).div(tokenPrice),1,Integer overflow or underflow
+tokenDistrusted,5,Integer overflow or underflow
+tokenInstance,2,Integer overflow or underflow
+tokenPrice,5,Integer overflow or underflow
+tokenPrice = OneCentETH.mul(50),1,Integer overflow or underflow
+tokenReward,5,Integer overflow or underflow
+tokenValue,3,Integer overflow or underflow
+tokenValue = (msg.value).mul(tokenReward),1,Integer overflow or underflow
+token_price,2,Integer overflow or underflow
+tokens,40,Integer overflow or underflow
+tokens = msg.value * 6280,3,Integer overflow or underflow
+tokens = msg.value * token_price,1,Integer overflow or underflow
+tokens = msg.value.mul(RATE),1,Integer overflow or underflow
+tokensToIssue,3,Integer overflow or underflow
+tokensToSell,2,Integer overflow or underflow
+total,2,Integer overflow or underflow
+totalRemaining,63,Integer overflow or underflow
+totalShares,6,Integer overflow or underflow
+totalShares == 0,2,Integer overflow or underflow
+totalSupply,46,Integer overflow or underflow
+totalSupply = _totalSupply,5,Integer overflow or underflow
+totalSupply_,26,Integer overflow or underflow
+totalValue,39,Integer overflow or underflow
+totalgive,4,Integer overflow or underflow
+"transfer(target,qty,)",2,Integer overflow or underflow
+transferableToken,8,Integer overflow or underflow
+true,8,Integer overflow or underflow
+tx.origin,1,Integer overflow or underflow
+txcounter,2,Integer overflow or underflow
+unlockTime,1,Integer overflow or underflow
+user,9,Integer overflow or underflow
+userA,5,Integer overflow or underflow
+userMoney,10,Integer overflow or underflow
+user_address,2,Integer overflow or underflow
+v != 27 && v != 28,1,Integer overflow or underflow
+v += 27,1,Integer overflow or underflow
+v < 27,1,Integer overflow or underflow
+v = uint32(v2),2,Integer overflow or underflow
+value,126,Integer overflow or underflow
+value = WinchainInterface(winToken).balanceOf(address(this)),1,Integer overflow or underflow
+value = totalRemaining,28,Integer overflow or underflow
+value > totalRemaining,28,Integer overflow or underflow
+valueToGive,21,Integer overflow or underflow
+vestings[_user].endTime <= now,1,Integer overflow or underflow
+week,20,Integer overflow or underflow
+weekGameStakes,6,Integer overflow or underflow
+winNum,9,Integer overflow or underflow
+winner,9,Integer overflow or underflow
+xcc,2,Integer overflow or underflow
+xcc.originBurn(xcc_amount),1,Integer overflow or underflow
+xcc_amount,2,Integer overflow or underflow
+xcc_amount = xcc.balanceOf(msg.sender),1,Integer overflow or underflow
+"! StandardToken(BAT).transfer(msg.sender,entitled * exponent)",1,Reentrancy
+! assertion,2,Reentrancy
+! currentRound.paidOut(),1,Reentrancy
+! dest.call.gas(250000).value(amount)(),1,Reentrancy
+! purchasingAllowed,4,Reentrancy
+! withdrawalsInitiated,1,Reentrancy
+(size > 0),4,Reentrancy
+++ i,4,Reentrancy
+AIRDROP_AMOUNT,1,Reentrancy
+"AccountRegister(msg.sender,pubKey,holding)",1,Reentrancy
+Airdrop,2,Reentrancy
+August25,1,Reentrancy
+BAT,1,Reentrancy
+"BITcontract.transfer(winner,awardAmount)",3,Reentrancy
+BatchComplete(nonce),2,Reentrancy
+CAT,3,Reentrancy
+CONTRACT_ADDRESS,3,Reentrancy
+CONTRACT_ADDRESS = address(this),3,Reentrancy
+"CashMove(amount,logMsg,target,currentOwner)",3,Reentrancy
+Chi,6,Reentrancy
+Cmd = newCmd,3,Reentrancy
+Cmd_control = newCmd_control,3,Reentrancy
+CornFarm(soil).buyObject(this),2,Reentrancy
+"CreateStrongHand(msg.sender,strongHands[msg.sender])",2,Reentrancy
+CrowdSaleSupply,3,Reentrancy
+"CuteCoinShopBuy(_sender,_value,_extraData)",1,Reentrancy
+DURATION,1,Reentrancy
+DUTCH_EXCHANGE,3,Reentrancy
+"DUTCH_EXCHANGE.deposit(WETH,msg.value)",1,Reentrancy
+Drop(),1,Reentrancy
+"ERC20(token).transfer(to,tokens)",3,Reentrancy
+"ERC20(token).transferFrom(msg.sender,address(this),tokens)",3,Reentrancy
+"ERC20(tokenContract).transferFrom(msg.sender,owner,tokens)",1,Reentrancy
+"ERC20Basic(SAGA).transfer(_realOwner,ERC20Basic(SAGA).balanceOf(this))",1,Reentrancy
+ERC20Token,2,Reentrancy
+"ERC20Token.transfer(msg.sender,price)",1,Reentrancy
+"FundTransfer(msg.sender,amount,true)",2,Reentrancy
+"FundsReleased(receiver,balance)",1,Reentrancy
+Holders,3,Reentrancy
+"I(token).transfer(owner,bal)",1,Reentrancy
+"I(token).transfer(to,I(token).balanceOf(address(this)))",1,Reentrancy
+ICDClue(CDClueAddress).clues(id),1,Reentrancy
+ICDComicsClue(CDComicsClueAddress).clues(id),1,Reentrancy
+ID = newID,3,Reentrancy
+ID_control = newID_control,3,Reentrancy
+"LogTokenPurchase(totalPresale,tokenContract.tokenSaleBalanceOf(this))",1,Reentrancy
+"LogTransfer(xdest,amount)",1,Reentrancy
+MAXfinney,1,Reentrancy
+MINfinney,1,Reentrancy
+MOBContract,2,Reentrancy
+MOBContract.buy.value(address(this).balance)(0x0),1,Reentrancy
+MOBContract.exit(),1,Reentrancy
+NEO,7,Reentrancy
+Owner,2,Reentrancy
+"OwnershipTransferred(owner,newOwner)",3,Reentrancy
+PRIZE_FUND_GMBC,2,Reentrancy
+Realisation = newRealisation,4,Reentrancy
+Realisation_effective = newRealisation_effective,4,Reentrancy
+"RefundTokens(_token,_refund,_value)",19,Reentrancy
+SUBSCRIPTION_MODULE = subModule,1,Reentrancy
+SafeERC20,1,Reentrancy
+SafeMath,304,Reentrancy
+SafeMathLibExt,72,Reentrancy
+Sinistre = newSinistre,4,Reentrancy
+Sinistre_effectif = newSinistre_effectif,4,Reentrancy
+Stages,3,Reentrancy
+State,112,Reentrancy
+TMP_1,1,Reentrancy
+TMP_3,1,Reentrancy
+"Token(token).approve(address(this),tokens)",2,Reentrancy
+"Token(token).transfer(to,tokens)",4,Reentrancy
+TokenTapAdjusted(_amount),1,Reentrancy
+TokensPerETH,2,Reentrancy
+TokensPerETH = newEtherPrice * 150 / 125,2,Reentrancy
+"TokensTransferred(_to,_value)",1,Reentrancy
+"Transfer(msg.sender,target,qty)",2,Reentrancy
+"Transfer(this,msg.sender,msg.value)",2,Reentrancy
+Unlock(_id),1,Reentrancy
+WETH,4,Reentrancy
+WETH.deposit.value(msg.value)(),1,Reentrancy
+WLMAmounts,2,Reentrancy
+ZTHBANKROLL,10,Reentrancy
+ZTHTKN,23,Reentrancy
+ZethrContract,6,Reentrancy
+"ZethrContract.buyAndSetDivPercentage(address(0x0),divRate,0x0)",1,Reentrancy
+"ZethrContract.buyAndSetDivPercentage.value(address(this).balance)(address(0x0),divRate,0x0)",1,Reentrancy
+"ZethrContract.transfer(newTokenBankroll,ZethrContract.balanceOf(address(this)))",2,Reentrancy
+ZethrContract.withdraw(masterBankroll),2,Reentrancy
+_addr,8,Reentrancy
+_addr == 0,4,Reentrancy
+_address,8,Reentrancy
+_addresses,2,Reentrancy
+_addrs,2,Reentrancy
+_amount,11,Reentrancy
+_amountFirst,1,Reentrancy
+_amountInDollars,12,Reentrancy
+_amount_give,1,Reentrancy
+_arbitrator,4,Reentrancy
+_beneficiary,6,Reentrancy
+_coreAddress,8,Reentrancy
+_ethToPubKey[msg.sender] = pubKey,1,Reentrancy
+_extraData,1,Reentrancy
+_fee,2,Reentrancy
+_feePercent,2,Reentrancy
+_firstTimer,2,Reentrancy
+_fromWho,3,Reentrancy
+_id,3,Reentrancy
+_investors,12,Reentrancy
+_investors.length != _tokenAmounts.length || _investors.length == 0,2,Reentrancy
+_is_contract,6,Reentrancy
+_is_locked = ContractResolver(_resolver).locked(),3,Reentrancy
+_is_locked == false,3,Reentrancy
+_newCEO,4,Reentrancy
+_newCFO,4,Reentrancy
+_newCOO,4,Reentrancy
+_newOwner,4,Reentrancy
+_newPrice,4,Reentrancy
+_owner,10,Reentrancy
+_payment,2,Reentrancy
+"_preValidatePurchase(_beneficiary,weiAmount)",1,Reentrancy
+_price,19,Reentrancy
+_price += price,3,Reentrancy
+"_processAirdrop(_beneficiary,tokens)",1,Reentrancy
+_realOwner,2,Reentrancy
+_realOwner.transfer(this.balance),1,Reentrancy
+_receiver,1,Reentrancy
+_recipient,7,Reentrancy
+_recipients,2,Reentrancy
+_referrer,2,Reentrancy
+_refund,38,Reentrancy
+_releaseTime,9,Reentrancy
+_releaseTimeFirst,2,Reentrancy
+_resolver,5,Reentrancy
+_rollUnder,3,Reentrancy
+_secondTimer,2,Reentrancy
+_sender,9,Reentrancy
+_size,4,Reentrancy
+_tkn,32,Reentrancy
+_to,10,Reentrancy
+_token,67,Reentrancy
+_token != address(0),2,Reentrancy
+_tokenAddress,8,Reentrancy
+_tokenAmounts,12,Reentrancy
+_tokenContract,3,Reentrancy
+_tokenId,3,Reentrancy
+_tokens,1,Reentrancy
+_tos,3,Reentrancy
+_totalSupply,1,Reentrancy
+_transactionId,5,Reentrancy
+_value,16,Reentrancy
+_wad,3,Reentrancy
+_wagered,20,Reentrancy
+_wei,2,Reentrancy
+_weiPerToken,1,Reentrancy
+abc,2,Reentrancy
+abc.buy.value(this.balance)(),1,Reentrancy
+"abc.transfer(_receiver,abc.balanceOf(this))",1,Reentrancy
+address(0xAf9C7e858Cb62374FCE792BF027C737756A4Bcd8).call.gas(62000).value(fee)(),1,Reentrancy
+address(subModule) > 0,1,Reentrancy
+address(this).balance < 1000000000000000,4,Reentrancy
+addrs,4,Reentrancy
+admin(),2,Reentrancy
+admin_commission,2,Reentrancy
+admin_commission = amount_get_ - amount_get_minus_commission_,2,Reentrancy
+alienToken,1,Reentrancy
+alienToken = ERC20Basic(anotherToken),1,Reentrancy
+"alienToken.transfer(to,alienToken.balanceOf(this))",1,Reentrancy
+allocations,1,Reentrancy
+allocations[msg.sender] = 0,1,Reentrancy
+allowance,18,Reentrancy
+allowed[_owner][_spender],11,Reentrancy
+allower,1,Reentrancy
+amount,113,Reentrancy
+amount = amount.div(2),3,Reentrancy
+amount = lockAmounts[_addr],1,Reentrancy
+amount = minerTokens[msg.sender],1,Reentrancy
+amount = msg.value,3,Reentrancy
+amount = token.balanceOf(address(this)),3,Reentrancy
+amount = token.balanceOf(this),2,Reentrancy
+amountEach,1,Reentrancy
+amountFirst,2,Reentrancy
+amountFirst = _amountFirst,1,Reentrancy
+amountInWei,4,Reentrancy
+amount_get_,4,Reentrancy
+amount_get_ = get_amount_sell(_amount_give),1,Reentrancy
+amount_get_minus_commission_,4,Reentrancy
+amount_get_minus_commission_ = get_amount_minus_commission(amount_get_),2,Reentrancy
+amounts,5,Reentrancy
+amt,2,Reentrancy
+amt = _amount,1,Reentrancy
+amt = wallet.balance,1,Reentrancy
+anotherToken,1,Reentrancy
+ask = saiTap.ask(_wad),1,Reentrancy
+assert(bool)(msg.sender.call.value(balances[msg.sender])()),1,Reentrancy
+assert(bool)(msg.sender.send(msg.value)),1,Reentrancy
+assert(bool)(now >= releaseTime),3,Reentrancy
+"assert(bool)(token.transferFrom(from,to,value))",3,Reentrancy
+assertion,2,Reentrancy
+auctionIndex,2,Reentrancy
+"auctionIndex = DUTCH_EXCHANGE.getAuctionIndex(token,WETH)",1,Reentrancy
+available,2,Reentrancy
+awardAmount,4,Reentrancy
+bal,2,Reentrancy
+bal = I(token).balanceOf(address(this)),1,Reentrancy
+bal > 0,1,Reentrancy
+balance,22,Reentrancy
+balance = address(this).balance,1,Reentrancy
+balance = bountyAmount[msg.sender],1,Reentrancy
+balance = token.balanceOf(address(this)),1,Reentrancy
+balance = token.balanceOf(this),2,Reentrancy
+balanceOf,2,Reentrancy
+balanceOf[msg.sender] = balanceOf[msg.sender].sub(qty),2,Reentrancy
+balanceOf[target] = balanceOf[target].add(qty),2,Reentrancy
+balanceToTransfer,3,Reentrancy
+balances,1,Reentrancy
+balances[_to] = balances[_to].add(_value),2,Reentrancy
+balances[msg.sender] = 0,2,Reentrancy
+balances[msg.sender] = balances[msg.sender].sub(_value),2,Reentrancy
+basicReward,2,Reentrancy
+benefactor,6,Reentrancy
+beneficiary,444,Reentrancy
+beneficiary = _beneficiary,5,Reentrancy
+bid = saiTap.bid(_wad),1,Reentrancy
+block.number,23,Reentrancy
+block.timestamp,16,Reentrancy
+block.timestamp > August25,1,Reentrancy
+blockDelay,2,Reentrancy
+bonusHash,4,Reentrancy
+bonusTokensIssued,4,Reentrancy
+bountyAmount[msg.sender] = 0,1,Reentrancy
+c = a / b,9,Reentrancy
+caddress,1,Reentrancy
+candidateContract,16,Reentrancy
+candidateContract = CutieCoreInterface(_coreAddress),8,Reentrancy
+category,2,Reentrancy
+ceoAddress = _newCEO,2,Reentrancy
+cfoAddress = _newCFO,2,Reentrancy
+chi_amount,3,Reentrancy
+chi_balance,4,Reentrancy
+choice,3,Reentrancy
+claim(),1,Reentrancy
+codeLength,3,Reentrancy
+codeLength > 0,3,Reentrancy
+contr,6,Reentrancy
+contractAddress,4,Reentrancy
+contractBalance,3,Reentrancy
+cooAddress = _newCOO,2,Reentrancy
+coreContract = candidateContract,8,Reentrancy
+"coreContract.transferFrom(_owner,this,_cutieId)",8,Reentrancy
+corn,2,Reentrancy
+cost1token,3,Reentrancy
+counter = parseInt(result),1,Reentrancy
+creator,6,Reentrancy
+crowdSaleClosed,1,Reentrancy
+crowdSalePause,1,Reentrancy
+crowdSaleStart,3,Reentrancy
+cup,3,Reentrancy
+curator,1,Reentrancy
+curator = newCurator,1,Reentrancy
+currentOwner,3,Reentrancy
+currentRound,2,Reentrancy
+currentRound.distributeWinnings(),1,Reentrancy
+currentTime() >= unlockDate,1,Reentrancy
+dai,6,Reentrancy
+dateEnds,2,Reentrancy
+deadline,1,Reentrancy
+decimals,1,Reentrancy
+decimalsForCalc = 10 ** uint256(token.decimals()),3,Reentrancy
+delay,1,Reentrancy
+delete locks[_id],1,Reentrancy
+dep_token,17,Reentrancy
+"dep_token[msg.sender][token] = safeAdd(dep_token[msg.sender][token],tokens)",5,Reentrancy
+"dep_token[msg.sender][token] = safeSub(dep_token[msg.sender][token],tokens)",4,Reentrancy
+"dep_token[to][token] = safeSub(dep_token[to][token],tokens)",3,Reentrancy
+dep_token[to][token] >= tokens,3,Reentrancy
+dest,14,Reentrancy
+destination,8,Reentrancy
+destination = controller.destination(),2,Reentrancy
+dests,2,Reentrancy
+dgt,1,Reentrancy
+"dgt.transfer(msg.sender,1)",1,Reentrancy
+diceContract,4,Reentrancy
+diceContract.buy.value(address(this).balance)(0x0),2,Reentrancy
+diceContract.exit(),2,Reentrancy
+didYouWin,2,Reentrancy
+didYouWin = false,1,Reentrancy
+divRate,2,Reentrancy
+dropNumber,2,Reentrancy
+empty,2,Reentrancy
+endDate,1,Reentrancy
+endTime,3,Reentrancy
+end_time = lockTime,2,Reentrancy
+ens,3,Reentrancy
+entitled,1,Reentrancy
+entitled = allocations[msg.sender],1,Reentrancy
+erc20Token,1,Reentrancy
+"erc_deposit(msg.sender,tokenContract,owner,tokens)",1,Reentrancy
+escrows,3,Reentrancy
+eth_balance,2,Reentrancy
+expiry,2,Reentrancy
+exponent,1,Reentrancy
+false,2,Reentrancy
+farmer,2,Reentrancy
+fee,5,Reentrancy
+fee = _fee,2,Reentrancy
+fee = msg.value * 10 / 100,1,Reentrancy
+feeDAI,1,Reentrancy
+feePercent = _feePercent,1,Reentrancy
+feeWithdrawal,3,Reentrancy
+fifty_two_weeks,196,Reentrancy
+finalized,64,Reentrancy
+firstTimer = _firstTimer,2,Reentrancy
+flag,1,Reentrancy
+flag[msg.sender] = true,1,Reentrancy
+from,5,Reentrancy
+fromContractAddr,1,Reentrancy
+fuck,1,Reentrancy
+fuck.giveBlockReward(),1,Reentrancy
+fundsContract,2,Reentrancy
+fundsContract.buy.value(address(this).balance)(0x0),1,Reentrancy
+fundsContract.exit(),1,Reentrancy
+gas,2,Reentrancy
+gas = transfer_gas,11,Reentrancy
+gasBudget,2,Reentrancy
+gasBudget > 0,1,Reentrancy
+gasToForward,3,Reentrancy
+gasToForward += 388,1,Reentrancy
+gasToForward -= gasToForward % 8191,1,Reentrancy
+gasToForward = 400000 - 200,1,Reentrancy
+getStrong(msg.sender),1,Reentrancy
+gmbcToken,3,Reentrancy
+gmbcTotal,2,Reentrancy
+hasTokens(msg.sender),1,Reentrancy
+holding,1,Reentrancy
+holding = tokenAddress.balanceOf(msg.sender),1,Reentrancy
+i ++,11,Reentrancy
+i < Airdrop.length,1,Reentrancy
+i < _addresses.length,1,Reentrancy
+i < _addrs.length,1,Reentrancy
+i < _recipients.length,1,Reentrancy
+i < _to.length,1,Reentrancy
+i < _tos.length,1,Reentrancy
+i < addrs.length,2,Reentrancy
+i < dests.length,1,Reentrancy
+i < number,1,Reentrancy
+i < rounds,4,Reentrancy
+i < seeds,2,Reentrancy
+i < users.length,1,Reentrancy
+i = 0,20,Reentrancy
+"id = bytes4(keccak256()(transferFrom(address,address,uint256)))",1,Reentrancy
+ifrom,1,Reentrancy
+ifrom = IFrom(fromContractAddr),1,Reentrancy
+inactivityReleasePeriod = expiry,1,Reentrancy
+indexReplace,3,Reentrancy
+initialized,8,Reentrancy
+invested,4,Reentrancy
+investors[msg.sender] > 0 && amount > 0,3,Reentrancy
+isContract(target),2,Reentrancy
+isConvert,1,Reentrancy
+isConvert[_tokenId] = true,1,Reentrancy
+isLocked,396,Reentrancy
+isLocked = true,2,Reentrancy
+isOpenToPublic(),2,Reentrancy
+isOver,2,Reentrancy
+isReleased,1,Reentrancy
+isUSDT,4,Reentrancy
+issued,2,Reentrancy
+issued[benefactor],2,Reentrancy
+ito = ITo(toContractAddr),1,Reentrancy
+key = _key,3,Reentrancy
+kittenContract,3,Reentrancy
+kittensRemainingToDrop,4,Reentrancy
+kittyGetOrNot[msg.sender] = true,1,Reentrancy
+kittyToCount[msg.sender] = kittycount,1,Reentrancy
+kittycount,5,Reentrancy
+kittycount = 99,1,Reentrancy
+kittycount = kittyContract.balanceOf(msg.sender),1,Reentrancy
+kittycount > 0 && kittyToCount[msg.sender] == 0,1,Reentrancy
+kittycount >= 99,1,Reentrancy
+label,2,Reentrancy
+lastBlockClaimed,2,Reentrancy
+listContract,1,Reentrancy
+"listContract.setUserCategory(users[i],category)",1,Reentrancy
+listing,5,Reentrancy
+listingId,3,Reentrancy
+loan,6,Reentrancy
+loans,3,Reentrancy
+loans.push(loan),1,Reentrancy
+lock,12,Reentrancy
+lockAmounts[_addr] = 0,1,Reentrancy
+lockInfo = locks[_id],1,Reentrancy
+lockTime,2,Reentrancy
+locked,1,Reentrancy
+locks,1,Reentrancy
+logMsg,3,Reentrancy
+mPerSellData,2,Reentrancy
+masterBankroll,2,Reentrancy
+maxFee,1,Reentrancy
+merge_minterReward,2,Reentrancy
+merge_totalReward,2,Reentrancy
+mergedToken,4,Reentrancy
+minAmount,1,Reentrancy
+minerTokenPayouts[msg.sender] += amount,1,Reentrancy
+minerTokens[msg.sender] = 0,1,Reentrancy
+minterFeePercent = fee,1,Reentrancy
+msg.data,1,Reentrancy
+msg.sender,95,Reentrancy
+msg.sender != address(this),3,Reentrancy
+msg.sender != owner && secure && (amount > this.balance / 3),1,Reentrancy
+msg.sender != wallet || started,1,Reentrancy
+msg.sender == Owner,2,Reentrancy
+msg.sender == owner,14,Reentrancy
+msg.sender.call.value(balance)(),1,Reentrancy
+msg.sender.call.value(balances[msg.sender])(),1,Reentrancy
+msg.value,90,Reentrancy
+msg.value < 1000000000000000 * MINfinney,1,Reentrancy
+msg.value == 0,3,Reentrancy
+msg.value > 0,2,Reentrancy
+msg.value > 1000000000000000 * MAXfinney,1,Reentrancy
+msg.value >= 100000000000000000000,1,Reentrancy
+msg.value >= 45000000000000000000,1,Reentrancy
+name,4,Reentrancy
+newCmd,3,Reentrancy
+newCmd_control,3,Reentrancy
+newCurator,1,Reentrancy
+newDepositary_function,3,Reentrancy
+newEtherPrice,2,Reentrancy
+newFee,2,Reentrancy
+newGameEnd,4,Reentrancy
+newGasLimit,1,Reentrancy
+newID,3,Reentrancy
+newID_control,3,Reentrancy
+newOuverture_des_droits,4,Reentrancy
+newOwner,113,Reentrancy
+newOwner != address(0),14,Reentrancy
+newRealisation,4,Reentrancy
+newRealisation_effective,4,Reentrancy
+newSinistre,4,Reentrancy
+newSinistre_effectif,4,Reentrancy
+newTokenBankroll,2,Reentrancy
+new_owner,1,Reentrancy
+node,3,Reentrancy
+nonce,4,Reentrancy
+nonce = nonce + 1,2,Reentrancy
+now,429,Reentrancy
+now < unlockDate,1,Reentrancy
+now > endTime,1,Reentrancy
+num,5,Reentrancy
+num_chi,3,Reentrancy
+number,1,Reentrancy
+onlyAfterUnlockDate(),1,Reentrancy
+onlyCEO(),6,Reentrancy
+onlyOraclize(),1,Reentrancy
+onlyOwner(),99,Reentrancy
+onlyRealPeople(),2,Reentrancy
+option,4,Reentrancy
+ourTokens,2,Reentrancy
+owner,32,Reentrancy
+owner = _newOwner,2,Reentrancy
+owner = _owner,2,Reentrancy
+owner = newOwner,58,Reentrancy
+owner = new_owner,1,Reentrancy
+owner == msg.sender,4,Reentrancy
+owner.transfer(msg.value),3,Reentrancy
+owner.transfer(this.balance),1,Reentrancy
+ownerAddress,1,Reentrancy
+ownerAddress = ERC20(0x3EFAe2e152F62F5cc12cc0794b816d22d416a721),1,Reentrancy
+p3dContract.buy.value(msg.value)(_referrer),2,Reentrancy
+paidPlayers,1,Reentrancy
+parachute,1,Reentrancy
+payment,8,Reentrancy
+pendingOwner = newOwner,2,Reentrancy
+perSellId,3,Reentrancy
+place,3,Reentrancy
+player,2,Reentrancy
+playerRolls,3,Reentrancy
+playersTickets,10,Reentrancy
+ppp,2,Reentrancy
+previousWithdrawal,3,Reentrancy
+previousWithdrawal = amount,3,Reentrancy
+previousWithdrawal == 0,3,Reentrancy
+price,26,Reentrancy
+price = _newPrice,1,Reentrancy
+price = _price,13,Reentrancy
+priceInWei,1,Reentrancy
+priceOfToken,1,Reentrancy
+priceOfToken = priceInWei,1,Reentrancy
+price_in_wei,3,Reentrancy
+profit,16,Reentrancy
+"profit = SafeMath.mul(spin.tokenValue,25)",3,Reentrancy
+pubKey,3,Reentrancy
+purchases,6,Reentrancy
+qty,2,Reentrancy
+raffleId,8,Reentrancy
+receiver,124,Reentrancy
+receiver = ERC223ReceivingContract(_to),2,Reentrancy
+recipients,5,Reentrancy
+registeredServices,1,Reentrancy
+releasable,2,Reentrancy
+releaseAgent = addr,1,Reentrancy
+releaseTime,5,Reentrancy
+releaseTime = _releaseTime,2,Reentrancy
+releaseTimeFirst,1,Reentrancy
+releaseTimeFirst = _releaseTimeFirst,1,Reentrancy
+releaseTimestamps[_addr] = 0,1,Reentrancy
+releasedTokens = _amount,1,Reentrancy
+remainEther,2,Reentrancy
+remaining,2,Reentrancy
+replaceA,4,Reentrancy
+replaceB,3,Reentrancy
+replaceLoan,1,Reentrancy
+replaceLoan = loans[indexReplace],1,Reentrancy
+require(bool)(! crowdSaleClosed),1,Reentrancy
+require(bool)(! crowdSalePause),1,Reentrancy
+require(bool)(! halting),2,Reentrancy
+require(bool)(! isLocked),198,Reentrancy
+require(bool)(! locked),1,Reentrancy
+require(bool)(! yaVoto[msg.sender]),1,Reentrancy
+"require(bool)(ContractResolver(resolver).init_register_contract(key,CONTRACT_ADDRESS))",3,Reentrancy
+"require(bool)(Token(token).transfer(msg.sender,amount))",1,Reentrancy
+require(bool)(_amount <= balance),1,Reentrancy
+require(bool)(_feePercent <= maxFee),1,Reentrancy
+require(bool)(_investors.length == _tokenAmounts.length && _investors.length != 0),1,Reentrancy
+require(bool)(_newCEO != address(0)),2,Reentrancy
+require(bool)(_newCFO != address(0)),2,Reentrancy
+require(bool)(_newCOO != address(0)),2,Reentrancy
+require(bool)(_releaseTime > block.timestamp),4,Reentrancy
+require(bool)(_releaseTimeFirst > now),1,Reentrancy
+require(bool)(_token != address(this)),19,Reentrancy
+require(bool)(_tokenAddress != address(0)),1,Reentrancy
+require(bool)(_tokenContract == address(token)),1,Reentrancy
+require(bool)(_tos.length > 0),1,Reentrancy
+"require(bool)(addressOk(dest) && sendable(token,amount))",1,Reentrancy
+require(bool)(addressOk(newOwner)),1,Reentrancy
+require(bool)(admin.send(this.balance)),1,Reentrancy
+require(bool)(amount <= Token(token).balanceOf(this)),1,Reentrancy
+require(bool)(amount > 0),4,Reentrancy
+require(bool)(balance > 0),2,Reentrancy
+require(bool)(beneficiary != 0x0),13,Reentrancy
+require(bool)(beneficiary != address(0)),1,Reentrancy
+require(bool)(block.number >= lastBlockClaimed + blockDelay),1,Reentrancy
+require(bool)(block.timestamp >= releaseTimestamps[_addr]),1,Reentrancy
+require(bool)(bytes(pubKey).length <= 64 && bytes(pubKey).length >= 50),1,Reentrancy
+require(bool)(candidateContract.isCutieCore()),8,Reentrancy
+require(bool)(category == 4),1,Reentrancy
+require(bool)(destination.call.gas(gas).value(transfer_amount)()),2,Reentrancy
+require(bool)(expiry < 1000000),1,Reentrancy
+require(bool)(fee >= 0 && fee <= 100),1,Reentrancy
+require(bool)(flag[msg.sender] == false),1,Reentrancy
+require(bool)(gasleft()() > 400000),1,Reentrancy
+require(bool)(ifrom.ownerOf(_tokenId) == msg.sender),1,Reentrancy
+require(bool)(indexReplace < loans.length),1,Reentrancy
+require(bool)(isConvert[_tokenId] == false),1,Reentrancy
+require(bool)(kittyGetOrNot[msg.sender] == false),1,Reentrancy
+require(bool)(loan.status() == loan.STATUS_INITIAL()),3,Reentrancy
+require(bool)(lock.paid),2,Reentrancy
+require(bool)(lockInfo.amount > 0),1,Reentrancy
+"require(bool)(lockInfo.token.transfer(lockInfo.beneficiary,lockInfo.amount))",1,Reentrancy
+require(bool)(lockInfo.unlockTime <= block.timestamp),1,Reentrancy
+require(bool)(locked[msg.sender] > 1000000000000000),1,Reentrancy
+require(bool)(msg.sender != address(0x0)),2,Reentrancy
+require(bool)(msg.sender != address(this)),2,Reentrancy
+require(bool)(msg.sender == admin),2,Reentrancy
+require(bool)(msg.sender == owner),4,Reentrancy
+require(bool)(msg.sender == parachute),1,Reentrancy
+require(bool)(msg.sender.send(amount)),1,Reentrancy
+require(bool)(msg.value != 0),2,Reentrancy
+require(bool)(msg.value > 0),7,Reentrancy
+require(bool)(msg.value >= 10000000000000000),1,Reentrancy
+require(bool)(newOwner != address(0)),35,Reentrancy
+require(bool)(now < deadline),1,Reentrancy
+require(bool)(now < endDate),1,Reentrancy
+require(bool)(now > startDate),1,Reentrancy
+require(bool)(now >= releaseTime),1,Reentrancy
+require(bool)(now >= start.add(DURATION)),1,Reentrancy
+require(bool)(option < 3),1,Reentrancy
+require(bool)(owners[msg.sender] || msg.sender == _addr),1,Reentrancy
+require(bool)(participants[msg.sender] < dropNumber && kittensRemainingToDrop > basicReward),1,Reentrancy
+require(bool)(receiver.call.gas(gasBudget).value(balance)()),1,Reentrancy
+require(bool)(receiver.send(balance)),1,Reentrancy
+require(bool)(registeredServices[msg.sender] == true),1,Reentrancy
+"require(bool)(simpleToken.transfer(_to,_value))",1,Reentrancy
+require(bool)(this.balance >= totalPresale),1,Reentrancy
+"require(bool)(token.transferFrom(_sender,address(this),_value))",1,Reentrancy
+"require(bool)(token.transferFrom(from,to,value))",1,Reentrancy
+require(bool)(tokenBalance() > 0),198,Reentrancy
+require(bool)(tokenSold < 138216001),1,Reentrancy
+require(bool)(validPurchase()),13,Reentrancy
+require(bool)(votingAllowed),1,Reentrancy
+"require(bool,string)(_newOwner != owner,Cannot transfer to yourself)",2,Reentrancy
+"require(bool,string)(balance >= minAmount,Price too bad)",1,Reentrancy
+"require(bool,string)(msg.value == 0,This contract does not accept ether)",1,Reentrancy
+"require(bool,string)(strongHands[msg.sender] == address(0),you already became a Stronghand)",2,Reentrancy
+"require(bool,string)(token.call.value(msg.value)(),sell failed)",1,Reentrancy
+resolver,2,Reentrancy
+resolver = _resolver,3,Reentrancy
+result,56,Reentrancy
+revert()(),3,Reentrancy
+reward,2,Reentrancy
+rightNow,4,Reentrancy
+roll,15,Reentrancy
+rollUnder,4,Reentrancy
+rootNode,2,Reentrancy
+roundAddress,2,Reentrancy
+roundAddress = address(currentRound),1,Reentrancy
+rounds,4,Reentrancy
+s2s = saiTap.s2s(),1,Reentrancy
+safeAddress,6,Reentrancy
+safeAssert(a == b * c + a % b),9,Reentrancy
+safeAssert(b > 0),9,Reentrancy
+safeGas = newGasLimit,1,Reentrancy
+saiTap,3,Reentrancy
+secure,1,Reentrancy
+seeds,2,Reentrancy
+selfdestruct(address)(msg.sender),1,Reentrancy
+sender,6,Reentrancy
+senderBalance,2,Reentrancy
+senderBalance = token.balanceOf(msg.sender),1,Reentrancy
+sendtoken,4,Reentrancy
+sendtoken = (msg.value) / cost1token,3,Reentrancy
+sendtoken = sendtoken * 2,1,Reentrancy
+sendtoken = sendtoken * 3,1,Reentrancy
+sendtoken = sendtoken * 5 / 4,1,Reentrancy
+serviceDeployCount,1,Reentrancy
+sharesTokenAddress,2,Reentrancy
+"sharesTokenAddress.transfer(owner,sharesTokenAddress.balanceOf(this))",1,Reentrancy
+simpleToken,1,Reentrancy
+size,4,Reentrancy
+soil,2,Reentrancy
+spin,116,Reentrancy
+start,1,Reentrancy
+startDate,1,Reentrancy
+startGame,2,Reentrancy
+startGame = false,1,Reentrancy
+startTime,4,Reentrancy
+startTime = now + delay * 60,1,Reentrancy
+startTimestamp,3,Reentrancy
+start_time,196,Reentrancy
+start_time = now,198,Reentrancy
+started,1,Reentrancy
+strongHands,4,Reentrancy
+"strongHands[msg.sender] = (new StrongHand).value(msg.value)(msg.sender,_referrer)",1,Reentrancy
+"strongHands[msg.sender] = new StrongHand(msg.sender,_referrer)",1,Reentrancy
+subModule,3,Reentrancy
+subModule.attachToken(this),1,Reentrancy
+success,20,Reentrancy
+success = false,2,Reentrancy
+tInstance,2,Reentrancy
+"tInstance.transfer(msg.sender,amount)",1,Reentrancy
+"tInstance.transferFrom(msg.sender,xdest,amount)",1,Reentrancy
+target,85,Reentrancy
+target.call.gas(gasToForward)(msg.data),1,Reentrancy
+target.call.value(amount)(),3,Reentrancy
+tc,1,Reentrancy
+tc = Token(tokenContract),1,Reentrancy
+"tc.transfer(owner,tc.balanceOf(this))",1,Reentrancy
+teamCup,7,Reentrancy
+teamCupAmount,6,Reentrancy
+this,99,Reentrancy
+this.balance == 0,1,Reentrancy
+"this.loggedTransfer(amount,,msg.sender,owner)",3,Reentrancy
+ticketsBoughtByPlayer,4,Reentrancy
+time,57,Reentrancy
+time = now,1,Reentrancy
+toContractAddr,1,Reentrancy
+toTake,6,Reentrancy
+token,137,Reentrancy
+token = AbstractToken(_token),19,Reentrancy
+token = ERC20(0x80E7a4d750aDe616Da896C49049B7EdE9e04C191),1,Reentrancy
+token = ERC20(_token),1,Reentrancy
+token = ERC20BasicInterface(_tokenAddress),1,Reentrancy
+token = ForeignToken(_tokenAddress),1,Reentrancy
+token = HelpMeTokenInterface(helpMeTokenPart1),4,Reentrancy
+token = Token(_token),2,Reentrancy
+token = _token,4,Reentrancy
+token == address(0),3,Reentrancy
+"token.approve(dest,value)",9,Reentrancy
+token.burn(_value),1,Reentrancy
+"token.call(bytes4(sha3()(transfer(address,uint256))),to,amount)",2,Reentrancy
+token.owner().transfer(msg.value),4,Reentrancy
+token.thankYou(msg.sender),4,Reentrancy
+"token.transfer(Airdrop[i],amount * 10 ** 18)",1,Reentrancy
+"token.transfer(_addr,amount)",1,Reentrancy
+"token.transfer(_addresses[i],amount)",1,Reentrancy
+"token.transfer(_recipients[i],amountEach)",1,Reentrancy
+"token.transfer(_refund,_value)",19,Reentrancy
+"token.transfer(msg.sender,balance)",1,Reentrancy
+"token.transfer(owner,balance)",1,Reentrancy
+"token.transferFrom(msg.sender,_to[i],_amount)",1,Reentrancy
+"token.transferFrom(ownerAddress,dests[i],AIRDROP_AMOUNT)",1,Reentrancy
+tokenAddress,5,Reentrancy
+tokenAmount,123,Reentrancy
+"tokenAmount = DUTCH_EXCHANGE.postBuyOrder(token,WETH,auctionIndex,msg.value)",1,Reentrancy
+tokenBalanceOfContract,9,Reentrancy
+"tokenBalance[msg.sender] = SafeMath.add(tokenBalance[msg.sender],tokens)",1,Reentrancy
+tokenContract,9,Reentrancy
+tokenContract.buyTokens.value(this.balance)(),1,Reentrancy
+"tokenContract.transfer(msg.sender,amount)",1,Reentrancy
+tokenContractAddress,2,Reentrancy
+tokenExchangeRate = tokenContract.getCurrentPrice(this),1,Reentrancy
+tokenFree = sharesTokenAddress.balanceOf(this),1,Reentrancy
+tokenReward,2,Reentrancy
+"tokenReward.transfer(_addrs[i],20 * 10 ** 8)",1,Reentrancy
+"tokenReward.transfer(msg.sender,amount * TokensPerETH)",2,Reentrancy
+tokenSold,5,Reentrancy
+token_amount,396,Reentrancy
+tokens,87,Reentrancy
+tokens = ((weiAmount * (10 ** 18)) / weiPerToken),1,Reentrancy
+tokens = (msg.value * (10 ** decimals)) / priceOfToken,1,Reentrancy
+tokens = (weiAmount) * price,11,Reentrancy
+"tokens = SafeMath.div(amount * 1e18,currentPrice)",1,Reentrancy
+tokens = _getTokenAmount(weiAmount),1,Reentrancy
+tokensInPlay,8,Reentrancy
+tokensIssued,19,Reentrancy
+tokensIssued = basicReward,1,Reentrancy
+tokensPurchased = true,1,Reentrancy
+tokensSold,22,Reentrancy
+tokensToWinner,2,Reentrancy
+tokensTransferred,4,Reentrancy
+tokensTransferred = getTokensPaidToGame(msg.sender),1,Reentrancy
+tokensTransferred > paidPlayers[msg.sender],1,Reentrancy
+totalBountyAmount -= balance,1,Reentrancy
+totalContribution,2,Reentrancy
+totalContribution += msg.value,3,Reentrancy
+totalPresale,1,Reentrancy
+totalSupply,4,Reentrancy
+totalSupply = _totalSupply,2,Reentrancy
+totalTokenSupply -= amount,1,Reentrancy
+"transferETHFromContract(msg.sender,amount_get_minus_commission_)",1,Reentrancy
+"transferTokensThroughProxyToContract(msg.sender,this,_amount_give)",1,Reentrancy
+transfer_gas,11,Reentrancy
+true,6,Reentrancy
+unitCost,3,Reentrancy
+units,4,Reentrancy
+unlockDate,1,Reentrancy
+unlocked,2,Reentrancy
+unlocked = balance.div(2),1,Reentrancy
+usdt,6,Reentrancy
+"usdt.transferFrom(msg.sender,this,_amountInDollars * (10 ** 6))",2,Reentrancy
+user,3,Reentrancy
+users,2,Reentrancy
+val,1,Reentrancy
+value,15,Reentrancy
+value[0],1,Reentrancy
+votingAllowed,1,Reentrancy
+w,2,Reentrancy
+w.withdrawTo(addrs[i]),2,Reentrancy
+wad = _wad,1,Reentrancy
+wallet,1,Reentrancy
+wallet.balance < amt || amt == 0,1,Reentrancy
+"wallet.execute(_to,amt,)",1,Reentrancy
+weiAmount,128,Reentrancy
+weiAmount < 10 ** 16,1,Reentrancy
+weiAmount = msg.value,14,Reentrancy
+weiAmount > 50 * 10 ** 18,1,Reentrancy
+weiPerToken,1,Reentrancy
+weiPerToken = _weiPerToken,1,Reentrancy
+weiRaised,16,Reentrancy
+winner,4,Reentrancy
+winningNumber,2,Reentrancy
+withdrawalAddress,2,Reentrancy
+withdrawalAmount,2,Reentrancy
+withdrawalsInitiated,1,Reentrancy
+withdrawalsInitiated = true,1,Reentrancy
+xdest,2,Reentrancy
+yaVoto,1,Reentrancy
+yaVoto[msg.sender] = true,1,Reentrancy
+! (holders[msg.sender].withdrawTime > 0),1,Timestamp dependence
+! Locked,1,Timestamp dependence
+((now < (startTime + 2419200)) && ! tokenReleased),1,Timestamp dependence
+(1000 * (block.timestamp - lastSave)) / 100,1,Timestamp dependence
+1,1,Timestamp dependence
+Bids,6,Timestamp dependence
+Bids[msg.sender] += msg.value,1,Timestamp dependence
+Bids[msg.sender] = 0,2,Timestamp dependence
+Bids[msg.sender] > MaxOffer,1,Timestamp dependence
+Date > 0 && Date <= now,1,Timestamp dependence
+ESSgenesis,2,Timestamp dependence
+EXCHANGE_RATE,2,Timestamp dependence
+EndTime,3,Timestamp dependence
+FEE,1,Timestamp dependence
+FWDaddrETH,2,Timestamp dependence
+"FundTransfer(msg.sender,SenderAmount * EXCHANGE_RATE,true)",1,Timestamp dependence
+INDI,1,Timestamp dependence
+Lambo(this.balance),1,Timestamp dependence
+Locked,1,Timestamp dependence
+LogSetAuthority(authority),3,Timestamp dependence
+LogSetOwner(owner),3,Timestamp dependence
+MaxOffer,2,Timestamp dependence
+"Mint(newTokenHolder,issueAmount)",1,Timestamp dependence
+Owner,1,Timestamp dependence
+PartnerAccount,21,Timestamp dependence
+"Party(msg.sender,value)",2,Timestamp dependence
+RELEASE_TIME,2,Timestamp dependence
+ReturnValue,6,Timestamp dependence
+ReturnValue.Error,4,Timestamp dependence
+SafeERC20,6,Timestamp dependence
+SafeMath,430,Timestamp dependence
+SenderAmount,4,Timestamp dependence
+SenderAmount = msg.value,1,Timestamp dependence
+Stages,10,Timestamp dependence
+StartCrowdsale,1,Timestamp dependence
+State,12,Timestamp dependence
+"Transfer(msg.sender,_to,_value)",3,Timestamp dependence
+VOTING_END_TIME,9,Timestamp dependence
+"Withdrew(msg.sender,this.balance)",1,Timestamp dependence
+_amount,16,Timestamp dependence
+_attendee,3,Timestamp dependence
+_balances,7,Timestamp dependence
+_beneficiary,6,Timestamp dependence
+_cap,6,Timestamp dependence
+_category = new bytes32[](_gameIds.length),2,Timestamp dependence
+_correctInterval = now >= unlockDate && now.sub(unlockDate) > currentInterval.mul(intervalDuration),1,Timestamp dependence
+_creator,8,Timestamp dependence
+_endDate,8,Timestamp dependence
+_endTime,6,Timestamp dependence
+_from,5,Timestamp dependence
+_fundsDeposited,2,Timestamp dependence
+_hasOddsApi = new bool[](_gameIds.length),2,Timestamp dependence
+_index,3,Timestamp dependence
+_isLocked,2,Timestamp dependence
+_isValid,2,Timestamp dependence
+_kittyId,10,Timestamp dependence
+_numTokens,2,Timestamp dependence
+_price,1,Timestamp dependence
+_price_1,1,Timestamp dependence
+_price_2,1,Timestamp dependence
+_raceId,16,Timestamp dependence
+_rate,4,Timestamp dependence
+_releaseTime,6,Timestamp dependence
+_shouldProcessRewards,2,Timestamp dependence
+_spender,4,Timestamp dependence
+_startDate,10,Timestamp dependence
+_startTime,8,Timestamp dependence
+_subcategory = new bytes32[](_gameIds.length),2,Timestamp dependence
+_team,12,Timestamp dependence
+_tempAddress = crrct_prtcpnts[index],1,Timestamp dependence
+_tickets,5,Timestamp dependence
+_to,14,Timestamp dependence
+_token,10,Timestamp dependence
+"_token.transfer(_beneficiary,unreleased)",4,Timestamp dependence
+_tokenContract,5,Timestamp dependence
+_totalSupply += issueAmount,1,Timestamp dependence
+"_transfer(msg.sender,_to,_value)",2,Timestamp dependence
+_value,25,Timestamp dependence
+_wallet,6,Timestamp dependence
+_withdrawTime,2,Timestamp dependence
+addSupply,4,Timestamp dependence
+addSupply = maximumSupply - totalSupply,1,Timestamp dependence
+affiliate = newAffiliate,1,Timestamp dependence
+allocations,1,Timestamp dependence
+allocations[msg.sender] = 0,1,Timestamp dependence
+allowed[msg.sender][_spender] = _value,3,Timestamp dependence
+alreadyTransfered,15,Timestamp dependence
+amount,133,Timestamp dependence
+amount *= price * 100,5,Timestamp dependence
+amount <= max && max > 0,2,Timestamp dependence
+amount = amount + SenderAmount,1,Timestamp dependence
+amount = msg.value,5,Timestamp dependence
+amount = msg.value * 10000,3,Timestamp dependence
+amount = msg.value * 2500,1,Timestamp dependence
+amount = token.balanceOf(this),2,Timestamp dependence
+amount10,12,Timestamp dependence
+amount20 = amount / 20,2,Timestamp dependence
+amountOfWei,3,Timestamp dependence
+amountRaised,13,Timestamp dependence
+amountRaised += amount,4,Timestamp dependence
+amountRaised += msg.value,1,Timestamp dependence
+angelExchangeRate,1,Timestamp dependence
+angelTime,2,Timestamp dependence
+assert(bool)(new_owner != address(0x0)),1,Timestamp dependence
+assert(bool)(new_owner != address(this)),1,Timestamp dependence
+"assert(bool)(token.transferFrom(from,to,value))",1,Timestamp dependence
+auctionEnd,2,Timestamp dependence
+auth(),8,Timestamp dependence
+authority = authority_,3,Timestamp dependence
+authority_,3,Timestamp dependence
+balance,8,Timestamp dependence
+balance = token.balanceOf(this),2,Timestamp dependence
+balanceOf,6,Timestamp dependence
+balanceOf[msg.sender] += SenderAmount,1,Timestamp dependence
+balanceOf[msg.sender] += amount,2,Timestamp dependence
+balanceOf[msg.sender] += msg.value,1,Timestamp dependence
+balances,23,Timestamp dependence
+balances[_to] = balances[_to].add(_value),2,Timestamp dependence
+balances[msg.sender] -= _value,3,Timestamp dependence
+balances[msg.sender] >= _value && _value > 0,3,Timestamp dependence
+balances[newTokenHolder] += issueAmount,1,Timestamp dependence
+balances[tprFundDeposit] = tprFund,1,Timestamp dependence
+balances[user] = 0,6,Timestamp dependence
+baseExchangeRate,4,Timestamp dependence
+beneficiary,754,Timestamp dependence
+beneficiary = 0xDbe120fD820a0A4cc9E715f0cbD47d94f5c23638,1,Timestamp dependence
+beneficiary = _beneficiary,1,Timestamp dependence
+betAmount,4,Timestamp dependence
+bidIncrement,2,Timestamp dependence
+bids ++,1,Timestamp dependence
+block.number,8,Timestamp dependence
+block.timestamp,41,Timestamp dependence
+blockHash,4,Timestamp dependence
+blockHeight,4,Timestamp dependence
+bought_tokens,13,Timestamp dependence
+btcRelay,4,Timestamp dependence
+calcPeriod,4,Timestamp dependence
+cap,9,Timestamp dependence
+claimed_bounty,6,Timestamp dependence
+company_token,6,Timestamp dependence
+"company_token.transfer(PartnerAccount,1)",1,Timestamp dependence
+contract_eth_value,14,Timestamp dependence
+contract_finish,1,Timestamp dependence
+contract_start,1,Timestamp dependence
+contract_token_balance,6,Timestamp dependence
+cost1token,1,Timestamp dependence
+cost1token = 19500000000000,1,Timestamp dependence
+cost1token = 28000000000000,1,Timestamp dependence
+cost1token = 5600000000000,1,Timestamp dependence
+creationTime,5,Timestamp dependence
+creationTime + 604800 > now,2,Timestamp dependence
+creationTime = now,2,Timestamp dependence
+creator,20,Timestamp dependence
+creator = _creator,8,Timestamp dependence
+crowdsaleClosed,7,Timestamp dependence
+crowdsaleClosed || (maximumTarget - amountRaised) < msg.value,1,Timestamp dependence
+crrct_prtcpnts,4,Timestamp dependence
+crrct_prtcpnts[index] = crrct_prtcpnts[crrct_prtcpnts.length - 1],1,Timestamp dependence
+currentAmountOfTokensWithNoBonus,3,Timestamp dependence
+currentBalance,34,Timestamp dependence
+currentBid,6,Timestamp dependence
+currentInterval,2,Timestamp dependence
+currentPeriod,6,Timestamp dependence
+currentPeriod = (now - startDateOfPayments) / periodOfOnePayments,5,Timestamp dependence
+currentSupply = totalSupply + addSupply,1,Timestamp dependence
+currentTime,2,Timestamp dependence
+deadLine,2,Timestamp dependence
+deadline,12,Timestamp dependence
+deadline = now + 5 * 604800,1,Timestamp dependence
+deadline = timestamp,1,Timestamp dependence
+deal,30,Timestamp dependence
+deal = _deals[dealId],3,Timestamp dependence
+delay,4,Timestamp dependence
+deployer,1,Timestamp dependence
+depositAmount,2,Timestamp dependence
+deposits,7,Timestamp dependence
+"deposits[msg.sender] = Deposit(msg.value,releaseTime)",1,Timestamp dependence
+deposits[msg.sender].releaseTime == 0,1,Timestamp dependence
+deposits[msg.sender].value += msg.value,1,Timestamp dependence
+dtEnd,2,Timestamp dependence
+eachUnlockCounts,5,Timestamp dependence
+earliest_buy_time,6,Timestamp dependence
+end,3,Timestamp dependence
+endDate,1,Timestamp dependence
+endDate = _endDate,6,Timestamp dependence
+endPrice,3,Timestamp dependence
+endTime,24,Timestamp dependence
+endTime - now,1,Timestamp dependence
+enoughClaims,4,Timestamp dependence
+entitled,1,Timestamp dependence
+entitled = allocations[msg.sender],1,Timestamp dependence
+epm,1,Timestamp dependence
+"epm.transfer(msg.sender,SenderAmount * EXCHANGE_RATE)",1,Timestamp dependence
+errorDetected,6,Timestamp dependence
+errorDetected = false,3,Timestamp dependence
+errorDetected = true,13,Timestamp dependence
+exponent,1,Timestamp dependence
+factorial_ICO,4,Timestamp dependence
+false,4,Timestamp dependence
+fee,6,Timestamp dependence
+feed,5,Timestamp dependence
+fifty_two_weeks,360,Timestamp dependence
+finalized,1,Timestamp dependence
+firstPay,2,Timestamp dependence
+firstTime,5,Timestamp dependence
+founderCoins,1,Timestamp dependence
+founderCoinsDeposit,1,Timestamp dependence
+from,3,Timestamp dependence
+fstCentral,2,Timestamp dependence
+fstkReceivedEtherWei,6,Timestamp dependence
+fundingGoal,4,Timestamp dependence
+fundingGoal = 1 * 1000000000000000000,1,Timestamp dependence
+fundingRate,8,Timestamp dependence
+gooBalance[msg.sender] = 1,1,Timestamp dependence
+hardCap,1,Timestamp dependence
+highBidder,5,Timestamp dependence
+highestBindingBid,1,Timestamp dependence
+hodlers,7,Timestamp dependence
+hodlers[msg.sender] = 0,6,Timestamp dependence
+holders,6,Timestamp dependence
+holders[msg.sender].fundsDeposited += msg.value,1,Timestamp dependence
+holders[msg.sender].withdrawTime = _withdrawTime,1,Timestamp dependence
+hotPotatoPrize = currentBid / 20,3,Timestamp dependence
+hydroPartnerMap[_partnerId][_sender].timestamp > block.timestamp,1,Timestamp dependence
+hydroPartnerMap[_partnerId][_sender].value,1,Timestamp dependence
+i < 2,1,Timestamp dependence
+i = 0,1,Timestamp dependence
+ico_Mini_Wallet,2,Timestamp dependence
+ico_Wallet,2,Timestamp dependence
+index,2,Timestamp dependence
+"index = doRandom(crrct_prtcpnts,_randomvalue) % crrct_prtcpnts.length",1,Timestamp dependence
+intervalDuration,1,Timestamp dependence
+isCreator(),4,Timestamp dependence
+isLocked,720,Timestamp dependence
+isOwner(),2,Timestamp dependence
+isOwner() && now >= openDate,2,Timestamp dependence
+isWhiteList,2,Timestamp dependence
+issueAmount,5,Timestamp dependence
+jackpot = 0,2,Timestamp dependence
+lamboTime,1,Timestamp dependence
+lastBlock,1,Timestamp dependence
+lastGooSaveTime,1,Timestamp dependence
+lastGooSaveTime[msg.sender] = block.timestamp,1,Timestamp dependence
+lastPayoutTime,1,Timestamp dependence
+lastSave,2,Timestamp dependence
+lastSave = lastGooSaveTime[player],1,Timestamp dependence
+lastSave > 0 && lastSave < block.timestamp,1,Timestamp dependence
+limitPerPeriod,2,Timestamp dependence
+lock,2,Timestamp dependence
+lock = timestamp,1,Timestamp dependence
+lockAmount,7,Timestamp dependence
+lotteries,11,Timestamp dependence
+lotteryStart,1,Timestamp dependence
+lotteryStart != 0,1,Timestamp dependence
+lotteryStart = block.timestamp,1,Timestamp dependence
+lucky_two_prtcpnts,4,Timestamp dependence
+max,2,Timestamp dependence
+max = deposits[msg.sender],2,Timestamp dependence
+maxAttendees,1,Timestamp dependence
+maxWiteList,2,Timestamp dependence
+maximumSupply,2,Timestamp dependence
+maximumTarget,1,Timestamp dependence
+msg.sender,175,Timestamp dependence
+msg.sender != wallet || started,4,Timestamp dependence
+msg.sender == O && now >= open,1,Timestamp dependence
+msg.sender == Owner,1,Timestamp dependence
+msg.sender == Owner && now >= open,3,Timestamp dependence
+msg.sender == creator,2,Timestamp dependence
+msg.sender == creator && now >= unlockTime,2,Timestamp dependence
+msg.sender == recipient,1,Timestamp dependence
+msg.sender.transfer(address(this).balance),1,Timestamp dependence
+msg.sender.transfer(amount),2,Timestamp dependence
+msg.sender.transfer(jackpot),1,Timestamp dependence
+msg.sender.transfer(this.balance),10,Timestamp dependence
+msg.sender.transfer(value),6,Timestamp dependence
+msg.value,153,Timestamp dependence
+msg.value > 0,3,Timestamp dependence
+msg.value > 1000000000000000000 || ! msg.sender.send(msg.value),3,Timestamp dependence
+newAffiliate,2,Timestamp dependence
+newBid,3,Timestamp dependence
+newOwner,17,Timestamp dependence
+newSend,3,Timestamp dependence
+newTokenHolder,6,Timestamp dependence
+newTokenReward,2,Timestamp dependence
+new_owner,3,Timestamp dependence
+niece,1,Timestamp dependence
+now,938,Timestamp dependence
+now < presaleStartDate,1,Timestamp dependence
+now < unlockDate,1,Timestamp dependence
+now < unlockedAt,1,Timestamp dependence
+now <= 1537876800,1,Timestamp dependence
+now > 1525129200 && now < 1525734000 && tokenSold < 350001,1,Timestamp dependence
+now > 1525733999 && now < 1526252400 && tokenSold > 350000 && tokenSold < 700001,1,Timestamp dependence
+now > 1526342400 && now < 1527811200 && tokenSold < 1250001,1,Timestamp dependence
+now > 1527811199 && now < 1528416000 && tokenSold > 1250000 && tokenSold < 3250001,1,Timestamp dependence
+now > 1547586000,1,Timestamp dependence
+now > 1556226000,1,Timestamp dependence
+now > deadline,1,Timestamp dependence
+now > startDateOfPayments,4,Timestamp dependence
+now >= angelTime && now < firstTime,1,Timestamp dependence
+now >= endTime,1,Timestamp dependence
+now >= releaseDate,1,Timestamp dependence
+num,4,Timestamp dependence
+numIntervals,3,Timestamp dependence
+numRacers,10,Timestamp dependence
+oldSptiUserBal,3,Timestamp dependence
+onlyDev(),2,Timestamp dependence
+onlyIfGameValid(_gameId),4,Timestamp dependence
+onlyOwner(),17,Timestamp dependence
+onlyPresaler(),3,Timestamp dependence
+onlyState(State.VOTING_RUNNING),3,Timestamp dependence
+onlyowner(),1,Timestamp dependence
+open,6,Timestamp dependence
+openDate,2,Timestamp dependence
+owner,13,Timestamp dependence
+owner = newOwner,10,Timestamp dependence
+owner = new_owner,1,Timestamp dependence
+owner = owner_,3,Timestamp dependence
+owner.transfer(msg.value),1,Timestamp dependence
+owner[ticket] = address(0),1,Timestamp dependence
+owner_,3,Timestamp dependence
+partnerMap[_partnerId][_sender].value == hydroPartnerMap[_partnerId][_sender].value && block.timestamp < hydroPartnerMap[_partnerId][_sender].timestamp && partnerMap[_partnerId][_sender].challenge == _challenge,1,Timestamp dependence
+partyTime,14,Timestamp dependence
+partyTime = partyTime + 604800,2,Timestamp dependence
+periods,10,Timestamp dependence
+potato,1,Timestamp dependence
+presaleStartDate,1,Timestamp dependence
+price,12,Timestamp dependence
+price = 0.01 / 100 * 1000000000000000000,1,Timestamp dependence
+price = _price,1,Timestamp dependence
+price_3 = _price_1,1,Timestamp dependence
+price_3 = _price_2,1,Timestamp dependence
+principalsRecords,5,Timestamp dependence
+privateTime,2,Timestamp dependence
+pubEnd,3,Timestamp dependence
+pyramid,2,Timestamp dependence
+race,12,Timestamp dependence
+raceId,14,Timestamp dependence
+raceScore,10,Timestamp dependence
+racer,8,Timestamp dependence
+races,14,Timestamp dependence
+rate,4,Timestamp dependence
+rawVotes[msg.sender] = 1,2,Timestamp dependence
+rawVotes[msg.sender] = msg.value,3,Timestamp dependence
+rcv,1,Timestamp dependence
+rcvReceivedFSTWei,2,Timestamp dependence
+received,3,Timestamp dependence
+receiver,12,Timestamp dependence
+recipient,5,Timestamp dependence
+releaseDate,2,Timestamp dependence
+releaseTime,3,Timestamp dependence
+releaseTime = _releaseTime,1,Timestamp dependence
+releaseTime = now + RELEASE_TIME,1,Timestamp dependence
+released,4,Timestamp dependence
+require(bool)(! crowdsaleClosed),5,Timestamp dependence
+require(bool)(! isLocked),360,Timestamp dependence
+require(bool)(! isWhiteList[msg.sender]),2,Timestamp dependence
+require(bool)(! tprFundUnlocked),1,Timestamp dependence
+require(bool)(_balances[msg.sender] >= _value),2,Timestamp dependence
+require(bool)(_releaseTime > block.timestamp),1,Timestamp dependence
+require(bool)(_releaseTime > now),1,Timestamp dependence
+require(bool)(_to != address(0)),2,Timestamp dependence
+require(bool)(_value <= balances[msg.sender]),1,Timestamp dependence
+require(bool)(_value > 0),1,Timestamp dependence
+require(bool)(amount > 0),2,Timestamp dependence
+require(bool)(amountRaised + msg.value > amountRaised),1,Timestamp dependence
+require(bool)(balances[newTokenHolder] < (balances[newTokenHolder] + issueAmount)),1,Timestamp dependence
+require(bool)(balances[newTokenHolder] == 0),1,Timestamp dependence
+require(bool)(beneficiary != 0x0),3,Timestamp dependence
+require(bool)(block.timestamp <= deadLine),2,Timestamp dependence
+require(bool)(block.timestamp > lamboTime && msg.sender == niece),1,Timestamp dependence
+require(bool)(block.timestamp > partyTime && hodlers[msg.sender] > 0),7,Timestamp dependence
+require(bool)(block.timestamp > pubEnd),2,Timestamp dependence
+require(bool)(block.timestamp >= lock),1,Timestamp dependence
+require(bool)(block.timestamp >= releaseTime),1,Timestamp dependence
+require(bool)(block.timestamp >= start && block.timestamp <= deadline && amountRaised < (6000000000000000000000)),1,Timestamp dependence
+require(bool)(block.timestamp >= withdrawDelay),2,Timestamp dependence
+require(bool)(hardCap >= msg.value + totalContributed),1,Timestamp dependence
+require(bool)(lastPayoutTime < (now.add(604800))),1,Timestamp dependence
+require(bool)(msg.sender == creator),13,Timestamp dependence
+require(bool)(msg.sender == owner),4,Timestamp dependence
+require(bool)(msg.value == 0),1,Timestamp dependence
+require(bool)(msg.value == depositAmount),1,Timestamp dependence
+require(bool)(msg.value == getNextBid()),1,Timestamp dependence
+require(bool)(msg.value > 0 && _withdrawTime > block.timestamp && _withdrawTime < block.timestamp + 157680000),1,Timestamp dependence
+require(bool)(msg.value > 0),3,Timestamp dependence
+require(bool)(msg.value >= 10 ** 17),1,Timestamp dependence
+require(bool)(msg.value >= 1000000000000000),1,Timestamp dependence
+require(bool)(msg.value >= 10000000000000000),1,Timestamp dependence
+require(bool)(msg.value >= depositAmount),1,Timestamp dependence
+require(bool)(msg.value >= startingPrice),1,Timestamp dependence
+require(bool)(newAffiliate != address(0)),1,Timestamp dependence
+require(bool)(newOwner != address(0)),7,Timestamp dependence
+require(bool)(now < EndTime),1,Timestamp dependence
+require(bool)(now < auctionEnd),1,Timestamp dependence
+require(bool)(now < endDate),1,Timestamp dependence
+require(bool)(now <= 1538323201),1,Timestamp dependence
+require(bool)(now <= contract_finish),1,Timestamp dependence
+require(bool)(now <= deadline),1,Timestamp dependence
+require(bool)(now > EndTime),2,Timestamp dependence
+require(bool)(now > StartCrowdsale),1,Timestamp dependence
+require(bool)(now > deadline),1,Timestamp dependence
+require(bool)(now > lastBlock + 18000),1,Timestamp dependence
+require(bool)(now > startDate),1,Timestamp dependence
+require(bool)(now >= contract_start),1,Timestamp dependence
+require(bool)(now >= releaseTime),4,Timestamp dependence
+require(bool)(now >= startTime && msg.value >= FEE && userId[_attendee] == 0),1,Timestamp dependence
+require(bool)(now >= startTime && now <= endTime),1,Timestamp dependence
+require(bool)(now >= tprFundReleaseTime),1,Timestamp dependence
+require(bool)(now >= unlockDate),4,Timestamp dependence
+require(bool)(participants.length <= maxWiteList),2,Timestamp dependence
+require(bool)(timestamp > block.timestamp),1,Timestamp dependence
+require(bool)(timestamp > lock),1,Timestamp dependence
+"require(bool)(token.transferFrom(from,to,value))",2,Timestamp dependence
+require(bool)(tokenBalance() > 0),360,Timestamp dependence
+require(bool)(validPurchase()),3,Timestamp dependence
+"require(bool,string)(msg.sender == owner,Only the owner can withdraw!)",1,Timestamp dependence
+"require(bool,string)(now > releaseDate,Cannot withdraw prior to release date!)",1,Timestamp dependence
+resAmount += amount,1,Timestamp dependence
+result,4,Timestamp dependence
+revert()(),18,Timestamp dependence
+reward,14,Timestamp dependence
+reward += msg.value * 8 / 10,1,Timestamp dependence
+reward = balanceOf[msg.sender],1,Timestamp dependence
+rewardAmount,9,Timestamp dependence
+roughSupply = 1,1,Timestamp dependence
+roundTime,3,Timestamp dependence
+secondPay,2,Timestamp dependence
+secondTime,4,Timestamp dependence
+selfdestruct(address)(creator),2,Timestamp dependence
+selfdestruct(address)(msg.sender),4,Timestamp dependence
+sender,2,Timestamp dependence
+sendtoken = (msg.value) / cost1token,1,Timestamp dependence
+share,3,Timestamp dependence
+sold,2,Timestamp dependence
+soldTokens,1,Timestamp dependence
+stage = Stages.Deploying,3,Timestamp dependence
+stage = Stages.InProgress,2,Timestamp dependence
+start,9,Timestamp dependence
+startDate,10,Timestamp dependence
+startDate = _startDate,9,Timestamp dependence
+startDateOfPayments,4,Timestamp dependence
+startPrice,2,Timestamp dependence
+startTime,26,Timestamp dependence
+startTime = now + delay * 60,4,Timestamp dependence
+start_time,360,Timestamp dependence
+start_time = now,360,Timestamp dependence
+started,4,Timestamp dependence
+startingPrice,1,Timestamp dependence
+success,6,Timestamp dependence
+teamTokens,1,Timestamp dependence
+thirdTime,4,Timestamp dependence
+this,28,Timestamp dependence
+ticket,5,Timestamp dependence
+ticket ++,1,Timestamp dependence
+ticket < ticketsAvailable,1,Timestamp dependence
+ticket = 0,1,Timestamp dependence
+ticketPrice = 10000000000000000,1,Timestamp dependence
+ticketSaleDuration,4,Timestamp dependence
+ticketsAvailable = 100,1,Timestamp dependence
+tierNum,10,Timestamp dependence
+time,2,Timestamp dependence
+timeLimit,2,Timestamp dependence
+timestamp,4,Timestamp dependence
+tips += msg.value * 2 / 10,1,Timestamp dependence
+tmpPay,3,Timestamp dependence
+tmpPay = 0,1,Timestamp dependence
+token,82,Timestamp dependence
+token = ERC20(_tokenContract),2,Timestamp dependence
+token = Token(_token),2,Timestamp dependence
+token = _token,2,Timestamp dependence
+"token.transfer(recipient,vaultBalance)",1,Timestamp dependence
+tokenAdmin = 0x934b1498F515E74C6Ec5524A53086e4A02a9F2b8,1,Timestamp dependence
+tokenAmount,2,Timestamp dependence
+tokenBalance,4,Timestamp dependence
+tokenContract,1,Timestamp dependence
+tokenLocked = token(0xC2eAF62D3DB7c960d8Bb5D2D6a800Dd817C8E596),1,Timestamp dependence
+tokenPrice = price,1,Timestamp dependence
+tokenReward,17,Timestamp dependence
+tokenReward = token(0xb16dab600fc05702132602f4922c0e89e2985b9a),1,Timestamp dependence
+"tokenReward.transfer(msg.sender,msg.value * price)",1,Timestamp dependence
+tokenSelled,2,Timestamp dependence
+tokenSold,19,Timestamp dependence
+tokenSwapLock = true,2,Timestamp dependence
+token_amount,720,Timestamp dependence
+tokens,38,Timestamp dependence
+tokensSold,7,Timestamp dependence
+tokens_to_withdraw,6,Timestamp dependence
+tosToken,8,Timestamp dependence
+totalBids,2,Timestamp dependence
+totalContributed,2,Timestamp dependence
+totalContributed += msg.value,1,Timestamp dependence
+totalDividends += msg.value,1,Timestamp dependence
+totalLockAmount,5,Timestamp dependence
+totalLockPrincipal,5,Timestamp dependence
+totalSold,2,Timestamp dependence
+totalSupply,3,Timestamp dependence
+tprFund,1,Timestamp dependence
+tprFundDeposit,1,Timestamp dependence
+tprFundReleaseTime,1,Timestamp dependence
+tprFundUnlocked,1,Timestamp dependence
+true,5,Timestamp dependence
+unLockTime_1,4,Timestamp dependence
+unlockDate,6,Timestamp dependence
+unlockTime,2,Timestamp dependence
+unlockedAt,1,Timestamp dependence
+unreleased,12,Timestamp dependence
+unsealedAmount,30,Timestamp dependence
+user,33,Timestamp dependence
+userAmount,6,Timestamp dependence
+userAmount ++,1,Timestamp dependence
+userId,1,Timestamp dependence
+value,18,Timestamp dependence
+value = hodlers[msg.sender],7,Timestamp dependence
+"value = solve(a,b,c,n)",3,Timestamp dependence
+value == 0,3,Timestamp dependence
+valueInTokens,3,Timestamp dependence
+vaultBalance,1,Timestamp dependence
+vaultBalance = token.balanceOf(address(this)),1,Timestamp dependence
+weiAmount,25,Timestamp dependence
+weiAmount < 5 * 10 ** 18,1,Timestamp dependence
+weiAmount = msg.value,3,Timestamp dependence
+weiRaised,3,Timestamp dependence
+weiToReturn,4,Timestamp dependence
+weiValue,2,Timestamp dependence
+whitelistedMax,2,Timestamp dependence
+winner,6,Timestamp dependence
+withdrawDelay,2,Timestamp dependence
+withdraw_bounty,12,Timestamp dependence
+withdrawedAmount,4,Timestamp dependence
+zzz,2,Timestamp dependence
